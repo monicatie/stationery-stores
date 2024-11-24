@@ -74,9 +74,6 @@
 
                     const ela = document.createElement('a');
                     ela.innerHTML = `<strong>${shop.name}</strong> - `;
-                    if (shop.city) {
-                        ela.innerHTML = `${ela.innerHTML}${shop.city}, `
-                    }
                     ela.innerHTML = ela.innerHTML + shop.country;
                     ela.href = '#'
                     ela.addEventListener('click', (e) => {
@@ -101,8 +98,8 @@
                                 console.error('Error fetching preview:', error);
                             });
 
-                        const buttonContainer = document.getElementById('button-container');
-                        buttonContainer.innerHTML = `<a href="${url}" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
+                        document.getElementById('preview-address').innerHTML = shop.address
+                        document.getElementById('button-container').innerHTML = `<a href="${url}" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
                     })
                     el.appendChild(ela)
                     container.appendChild(el);
@@ -130,6 +127,7 @@
                 <div>
                     <img style="max-width: 300px; max-height: 300px" id="preview-image" />
                     <p id="preview-description"></p>
+                    <p id="preview-address"></p>
                     <div id="button-container"></div>
                 </div>
             </div>
