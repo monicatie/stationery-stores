@@ -1,0 +1,23 @@
+[
+    {
+        "id": 86170232,
+        "name": "Niconeco Zakkaya",
+        "link": "https://www.niconeco.com",
+        "city": "New York",
+        "country": "USA",
+        "tags": ["stickers", "stationery"]
+    }, {
+        "id": 68755791,
+        "name": "Atelier by Jo",
+        "link": "https://www.atelierbyjo.com",
+        "country": "USA",
+        "tags": ["online only"]
+    }, {
+        "id": 68755791,
+        "name": "Luiban",
+        "link": "https://www.luiban.com/",
+        "city": "Berlin",
+        "country": "Germany",
+        "tags": ["stickers", "stationery"] 
+    }
+]
