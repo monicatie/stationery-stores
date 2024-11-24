@@ -19,8 +19,8 @@
                 "description": "Link to the shop",
                 "type": "string"
             },
-            "city": {
-                "description": "City where shop is located",
+            "address": {
+                "description": "Address where shop is located",
                 "type": "string"
             },
             "country": {

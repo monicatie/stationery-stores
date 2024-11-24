@@ -73,7 +73,8 @@
                     const el = document.createElement('div');
 
                     const ela = document.createElement('a');
-                    ela.innerHTML = `<strong>${shop.name}</strong> - ${shop.city}, ${shop.country}`;
+                    ela.innerHTML = `<strong>${shop.name}</strong> - `;
+                    ela.innerHTML = ela.innerHTML + shop.country;
                     ela.href = '#'
                     ela.addEventListener('click', (e) => {
                         const apiKey = 'ba1959eddd01d82b1d7796e3aa62aabd';
@@ -86,17 +87,19 @@
                         fetch(requestUrl)
                             .then(response => response.json())
                             .then(data => {
-                                // Handle the response
-                                console.log('Preview Data:', data);
-
-                                // Example: Display preview data on your page
-                                document.getElementById('preview-title').innerText = data.title || 'No title available';
-                                document.getElementById('preview-description').innerText = data.description || 'No description available';
-                                document.getElementById('preview-image').src = data.image || 'default-image.jpg';  // Fallback image
+                                document.getElementById('preview-title').innerText = data.title || shop.name;
+                                document.getElementById('preview-description').innerText = data.description || '';
+                                document.getElementById('preview-image').src = data.image;
                             })
                             .catch(error => {
+                                document.getElementById('preview-title').innerText = shop.name;
+                                document.getElementById('preview-description').innerText = 'unable to load preview :(';
+                                document.getElementById('preview-image').removeAttribute('src');
                                 console.error('Error fetching preview:', error);
                             });
+
+                        document.getElementById('preview-address').innerHTML = shop.address
+                        document.getElementById('button-container').innerHTML = `<a href="${url}" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
                     })
                     el.appendChild(ela)
                     container.appendChild(el);
@@ -124,6 +127,8 @@
                 <div>
                     <img style="max-width: 300px; max-height: 300px" id="preview-image" />
                     <p id="preview-description"></p>
+                    <p id="preview-address"></p>
+                    <div id="button-container"></div>
                 </div>
             </div>
         </div>

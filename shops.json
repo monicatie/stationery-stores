@@ -3,21 +3,50 @@
         "id": 86170232,
         "name": "Niconeco Zakkaya",
         "link": "https://www.niconeco.com",
-        "city": "New York",
+        "address": "263 East 10th Street, New York 10009",
         "country": "USA",
         "tags": ["stickers", "stationery"]
     }, {
         "id": 68755791,
         "name": "Atelier by Jo",
         "link": "https://www.atelierbyjo.com",
+        "address": "",
         "country": "USA",
         "tags": ["online only"]
     }, {
         "id": 68755791,
         "name": "Luiban",
-        "link": "https://www.luiban.com/",
-        "city": "Berlin",
+        "link": "https://www.luiban.com",
+        "address": "Rosa-Luxemburg-Straße 28, Berlin",
         "country": "Germany",
-        "tags": ["stickers", "stationery"] 
+        "tags": ["stickers", "stationery"]
+    }, {
+        "id": 75819041,
+        "name": "Maido Okini",
+        "link": "https://www.maido-okini.com",
+        "address": "Charlottenburger Str. 62-64, 13086 Berlin",
+        "country": "Germany",
+        "tags": ["stickers", "stationery"]
+    }, {
+        "id": 68009276,
+        "name": "Cafe Analog",
+        "link": "https://www.cafe-analog.nl",
+        "address": "Raadhuisstraat 15, 1016DB Amsterdam",
+        "country": "Netherlands",
+        "tags": ["stickers", "stationery"]
+    }, {
+        "id": 59075659,
+        "name": "M. Lovewell",
+        "link": "https://www.mlovewell.com",
+        "address": "115 N Orange St., Orange, CA 92866",
+        "country": "USA",
+        "tags": ["stickers", "stationery", "fountain pens"]
+    }, {
+        "id": 93625747,
+        "name": "Paper Plant Co",
+        "link": "https://paperplant.co",
+        "address": "938 N Hill St, Los Angeles, CA 90012",
+        "country": "USA",
+        "tags": ["stickers", "stationery", "fountain pens"]
     }
 ]
