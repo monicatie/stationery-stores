@@ -37,7 +37,7 @@
                 "uniqueItems": true
             }
         },
-        "required": ["shopID", "shopName"]
+        "required": ["id", "name"]
     },
     "uniqueItems": true
 }
