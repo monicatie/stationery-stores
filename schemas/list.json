@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "shops",
+    "description": "A list of stationery stores",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "description": "Unique identifier for the shop",
+                "type": "integer"
+            },
+            "name": {
+                "description": "Name of the shop",
+                "type": "string"
+            },
+            "link": {
+                "description": "Link to the shop",
+                "type": "string"
+            },
+            "city": {
+                "description": "City where shop is located",
+                "type": "string"
+            },
+            "country": {
+                "description": "Country where shop is located",
+                "type": "string"
+            },
+            "tags": {
+                "description": "Tags and keywords for the shop to help with filtering",
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+            }
+        },
+        "required": ["shopID", "shopName"],
+        "uniqueItems": true
+    }
+    
+}
