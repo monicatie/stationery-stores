@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A generic HTML index page template">
+    <meta name="author" content="Monica Tie">
+    <meta name="keywords" content="Online list of stationery shops">
+    <title>Stationery Shops</title>
+    <style>
+        /* Inline CSS for quick customization */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0 auto;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+    <script>
+        fetch('shops.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const shops = data;
+
+                const container = document.getElementById('shops-list');
+                const shopIframe = document.getElementById('shop-iframe');
+
+                // Display shops dynamically
+                shops.forEach(shop => {
+                    const el = document.createElement('div');
+
+                    const ela = document.createElement('a');
+                    ela.innerHTML = `<strong>${shop.name}</strong> - ${shop.city}, ${shop.country}`;
+                    ela.href = '#'
+                    ela.addEventListener('click', (e) => {
+                        const apiKey = 'ba1959eddd01d82b1d7796e3aa62aabd';
+                        const url = shop.link;
+
+                        // Construct the LinkPreview API request URL
+                        const requestUrl = `https://api.linkpreview.net/?key=${apiKey}&q=${encodeURIComponent(url)}`;
+
+                        // Fetch the preview data
+                        fetch(requestUrl)
+                            .then(response => response.json())
+                            .then(data => {
+                                // Handle the response
+                                console.log('Preview Data:', data);
+
+                                // Example: Display preview data on your page
+                                document.getElementById('preview-title').innerText = data.title || 'No title available';
+                                document.getElementById('preview-description').innerText = data.description || 'No description available';
+                                document.getElementById('preview-image').src = data.image || 'default-image.jpg';  // Fallback image
+                            })
+                            .catch(error => {
+                                console.error('Error fetching preview:', error);
+                            });
+                    })
+                    el.appendChild(ela)
+                    container.appendChild(el);
+                });
+            })
+            .catch(error => console.error('Error fetching shops.json:', error));
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Stationery Shop List</h1>
+        <p>A list of stationery shops across the world</p>
+    </header>
+
+    <main>
+        <div style="display: flex; height: 100vh;">
+            <!-- Left Panel: List of Shops -->
+            <div id="shops-list" style="width: 30%; border-right: 1px solid #ccc; overflow-y: auto; padding: 1rem;">
+            </div>
+
+            <!-- Right Panel: Iframe for Shop's Website -->
+            <div style="flex-grow: 1; padding: 1rem;">
+                <h2 id="preview-title"></h2>
+                <div>
+                    <img style="max-width: 300px; max-height: 300px" id="preview-image" />
+                    <p id="preview-description"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
