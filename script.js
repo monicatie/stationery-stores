@@ -9,7 +9,6 @@ fetch('shops.json')
     const shops = data;
 
     const container = document.getElementById('shops-list');
-    const shopIframe = document.getElementById('shop-iframe');
 
     // Display shops dynamically
     shops.forEach(shop => {
