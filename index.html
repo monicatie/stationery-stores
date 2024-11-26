@@ -30,6 +30,11 @@
             text-align: center;
         }
 
+        .tags {
+            font-size: .8rem;
+            color: gray;
+        }
+
         footer {
             background-color: #333;
             color: #fff;
@@ -85,7 +90,11 @@
                         document.getElementById('preview-address').innerHTML = shop.address
                         document.getElementById('button-container').innerHTML = `<a href="${url}" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
                     })
+                    const tagsEl = document.createElement('div');
+                    tagsEl.className = 'tags'
+                    tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.join(", ") : null;
                     el.appendChild(ela)
+                    el.appendChild(tagsEl);
                     container.appendChild(el);
                 });
             })
