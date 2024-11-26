@@ -48,5 +48,12 @@
         "address": "938 N Hill St, Los Angeles, CA 90012",
         "country": "USA",
         "tags": ["stickers", "stationery", "fountain pens"]
+    }, {
+        "id": 8923034,
+        "name": "crea with gaby",
+        "link": "https://creawithgaby.com",
+        "address": "",
+        "country": "Ireland",
+        "tags": ["online only", "stickers", "stationery", "washi tapes", "PET tapes"]
     }
 ]
