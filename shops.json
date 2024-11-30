@@ -19,21 +19,21 @@
         "link": "https://www.luiban.com",
         "address": "Rosa-Luxemburg-Straße 28, Berlin",
         "country": "Germany",
-        "tags": ["stickers", "stationery"]
+        "tags": ["stickers", "stationery", "notebooks", "washi tapes"]
     }, {
         "id": 75819041,
         "name": "Maido Okini",
         "link": "https://www.maido-okini.com",
         "address": "Charlottenburger Str. 62-64, 13086 Berlin",
         "country": "Germany",
-        "tags": ["stickers", "stationery"]
+        "tags": ["stickers", "stationery", "notebooks"]
     }, {
         "id": 68009276,
         "name": "Cafe Analog",
         "link": "https://www.cafe-analog.nl",
         "address": "Raadhuisstraat 15, 1016DB Amsterdam",
         "country": "Netherlands",
-        "tags": ["stickers", "stationery"]
+        "tags": ["stickers", "stationery", "notebooks", "PET tapes", "washi tapes"]
     }, {
         "id": 59075659,
         "name": "M. Lovewell",
@@ -55,5 +55,11 @@
         "address": "",
         "country": "Ireland",
         "tags": ["online only", "stickers", "stationery", "washi tapes", "PET tapes"]
-    }
+    }, {
+        "id": 98000734,
+        "name": "Sarica Studio",
+        "link": "https://saricastudio.com/",
+        "address": "Delaware",
+        "country": "USA",
+        "tags": ["online only", "stickers", "notebooks"]
 ]
