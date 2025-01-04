@@ -5,7 +5,8 @@
         "link": "https://www.niconeco.com",
         "address": "263 East 10th Street, New York 10009",
         "country": "USA",
-        "tags": ["stickers", "stationery"]
+        "tags": ["stickers", "stationery"],
+        "brands": ["4 Legs", "À L'AISE Calligraphy", "Brown Parcel Press", "Belinda Love Lee", "Black Milk Project", "Japanese Watercolor Supplies", "Catdoo", "Classiky", "DELFONICS", "Dodolulu Design", "Egg Press Letterpress", "Emily Lex Watercolor", "Fugu Fugu Press", "Farmette", "FURUKAWA Paper", "Field Notes", "HANEN Studio", "Hobonichi", "HUTTE Paper Works", "Ivy Snow"]
     }, {
         "id": 68755791,
         "name": "Atelier by Jo",
@@ -19,28 +20,32 @@
         "link": "https://www.luiban.com",
         "address": "Rosa-Luxemburg-Straße 28, Berlin",
         "country": "Germany",
-        "tags": ["stickers", "stationery", "notebooks", "washi tapes"]
+        "tags": ["stickers", "stationery", "notebooks", "washi tapes"],
+        "brands": ["Apica", "Ballograf", "Bindewerk", "Blackwing", "Hobonichi", "Kami", "Kamoi MT", "Kaweco", "Koh-I-Noor", "Kokuyo", "Kwz Ink", "Kunisawa", "Lamy", "Maruman", "Midori", "Ohto", "Papierniczeni", "Papoutsi", "Pentel", "Pilot", "Platinum", "Sonnenleder", "Stalogy", "Tombow", "Traveler's Company", "Traveler's Factory", "Twsbi", "Uni"]
     }, {
         "id": 75819041,
         "name": "Maido Okini",
         "link": "https://www.maido-okini.com",
         "address": "Charlottenburger Str. 62-64, 13086 Berlin",
         "country": "Germany",
-        "tags": ["stickers", "stationery", "notebooks"]
+        "tags": ["stickers", "stationery", "notebooks"],
+        "brands": ["Akashiya", "Furukawa Shiko", "General Sticker", "HANKO SEAL", "Kamidea", "Kamiiso", "kleid", "Kuretake", "maruman", "Mildliner", "MIND WAVE", "mori", "NB", "OHTO", "Sakae", "Shinnipon Printing Inc.", "Shogado", "ZEBRA"]
     }, {
         "id": 68009276,
         "name": "Cafe Analog",
         "link": "https://www.cafe-analog.nl",
         "address": "Raadhuisstraat 15, 1016DB Amsterdam",
         "country": "Netherlands",
-        "tags": ["stickers", "stationery", "notebooks", "PET tapes", "washi tapes"]
+        "tags": ["stickers", "stationery", "notebooks", "PET tapes", "washi tapes"],
+        "brands": ["63penhouse", "A Kind of Cafe", "Absent Studio", "Akiko Okajima", "Ana Jiménez", "Avocado Mori", "Awagami Factory", "Bande", "Baum-kuchen", "Beverly Ink", "BGM", "BigHands", "Black Milk Project", "Blinks of Life", "Bonox by Team Dulton", "Breezy Studio", "Cafe Analog", "CAFE ANALOG exclusive", "Catslife Press", "Cheeryletters", "Classiky", "Cotori Cotori", "Cozyca", "Dodolulu Design", "Dulton", "Dyna Paperie", "Earthly Records", "Eileen Tai", "El Commun", "Elsie with love", "Elysian Paper", "Eric Small Things", "Fairy Maru", "Freckles Tea", "fstudio", "Furukawashiko", "Furukwashiko", "GOAT", "Hairmo", "Hanen Studio", "Hankodori", "Hara Wool", "Hightide", "Himekuri", "Hitotoki", "Ivy Snow", "Jesslynn Padilla", "JieYanow Atelier", "JournalPages Addict", "Jr.Journal", "Kamiterior", "Kitta", "Knoop Works", "Kobo Ren", "Kodomo no kao", "Kohunkan Kappansho", "Kokuyo", "Krimgen", "Kuretake", "Kurukynki", "Lamp Paperi", "LCN Lin Chia Ning", "Liberty HK", "LIKE Studio", "Listeninda", "Little Lu", "Loi Design", "Lucky Deer", "Ma7Stamp", "Mariko Fukuoka", "Matoka", "Meow Illustration", "Miao Stelle", "Midori", "Miki tamura", "MindWave", "misshoegg", "Mizushima", "Modaizhi", "Mori Ringo", "Mr. Eggplant", "Ms Bulat", "MT", "Mu design", "Mu Lifestyle", "NB Japan", "Necktie", "Nishi Shuku", "Nombre", "Nove Production", "Nyret", "Oeda Letterpress", "of6withlove", "Old Resta x Kuretake", "Ours", "PapierPlatz", "Penco", "penspapersplanner", "PePePe", "Petra Brcic", "Phavourite.co", "Pine Book", "Pion", "Plusminus", "Pooi Chin", "Put and Paper", "Ranmyu", "Raw Market Shop", "Rhodia", "Sailor", "Sanby", "Sanseido", "Sarica Studio", "Shachihata", "Shinnippon", "Shogado Yuzen", "SOM Studio", "SomeSoftofFern", "Sora", "Stamp Marche", "Stamptitude", "Stationery Instinct", "StaZon", "SUBLO", "Sunny Sunday", "TeaYouShop", "The Cabinets", "Tijana Lukovic", "Toyo Steel", "Traditional Japanese Stamp", "Traveler's Company", "Traveling on Paper", "Tsubame", "Tsukineko", "Two Black Circles", "Usagi Print", "Viola Japan", "Windry Ramadhina", "wwiinngg", "Yamadoro", "Yeon Charm", "Yohaku", "Yohand Studio", "Yuka Butter", "Zebra Sarasa"]
     }, {
         "id": 59075659,
         "name": "M. Lovewell",
         "link": "https://www.mlovewell.com",
         "address": "115 N Orange St., Orange, CA 92866",
         "country": "USA",
-        "tags": ["stickers", "stationery", "fountain pens"]
+        "tags": ["stickers", "stationery", "fountain pens"],
+        "brands": ["Hobonichi", "Traveler's Company"]
     }, {
         "id": 93625747,
         "name": "Paper Plant Co",
@@ -61,7 +66,8 @@
         "link": "https://saricastudio.com/",
         "address": "Delaware",
         "country": "USA",
-        "tags": ["online only", "stickers", "notebooks"]
+        "tags": ["online only", "stickers", "notebooks"],
+        "brands": ["Sarica Studio"]
     }, {
         "id": 6407898,
         "name": "Paper Miru",
