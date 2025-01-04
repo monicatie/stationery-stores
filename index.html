@@ -43,21 +43,55 @@
         }
     </style>
     <script>
-        fetch('shops.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok ' + response.statusText);
-                }
-                return response.json();
-            })
-            .then(data => {
-                const shops = data;
+        // Global list of shops
+        let SHOPS_GLOBAL = [];
 
-                const container = document.getElementById('shops-list');
-                const shopIframe = document.getElementById('shop-iframe');
+        function getShopsByBrand(shops, brand) {
+            return shops.filter(s => s.brands && s.brands.includes(brand));
+        }
 
-                // Display shops dynamically
-                shops.forEach(shop => {
+        function getBrands(shops) {
+            const allBrands = shops.flatMap(s => s.brands || []);
+            return Array.from(new Set(allBrands)).sort();
+        }
+
+        function applyFilter(shops) {
+            const selectedBrand = document.getElementById('brand-select').value;
+            if (selectedBrand === "None") {
+                displayList(shops);
+            } else {
+                const filteredItems = getShopsByBrand(shops, selectedBrand);
+                displayList(filteredItems);
+            }
+        }
+
+        function populateBrands(shops) {
+            const brands = getBrands(shops);
+            const brandSelect = document.getElementById('brand-select');
+
+            // Add default option
+            const noneOption = document.createElement('option');
+            noneOption.value = "None";
+            noneOption.textContent = "None";
+            brandSelect.appendChild(noneOption);
+
+            // Add brand options
+            brands.forEach(brand => {
+                const option = document.createElement('option');
+                option.value = brand;
+                option.textContent = brand;
+                brandSelect.appendChild(option);
+            });
+        }
+
+        function displayList(shops) {
+            const container = document.getElementById('shops-list');
+
+            // Clear existing list
+            container.innerHTML = "";
+
+            // Display shops dynamically
+            shops.forEach(shop => {
                     const el = document.createElement('div');
 
                     const ela = document.createElement('a');
@@ -96,6 +130,19 @@
                     el.appendChild(tagsEl);
                     container.appendChild(el);
                 });
+        }
+
+        fetch('shops.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                SHOPS_GLOBAL = data;
+                displayList(SHOPS_GLOBAL);
+                populateBrands(SHOPS_GLOBAL);
             })
             .catch(error => console.error('Error fetching shops.json:', error));
     </script>
@@ -110,11 +157,19 @@
     <main>
         <div style="display: flex; height: 100vh;">
             <!-- Left Panel: List of Shops -->
-            <div id="shops-list" style="width: 30%; border-right: 1px solid #ccc; overflow-y: auto; padding: 1rem;">
+            <div style="width: 20%; min-width: 150px; border-right: 1px solid #ccc; overflow-y: auto; padding: 1rem;">
+                <div>
+                    <label for="brand-select">Choose a brand:</label>
+                    <select id="brand-select">
+                    </select>
+                    <button onclick="applyFilter(SHOPS_GLOBAL)">Filter</button>
+                </div>
+                <div id="shops-list">
+                </div>
             </div>
 
             <!-- Right Panel: Iframe for Shop's Website -->
-            <div style="flex-grow: 1; padding: 1rem;">
+            <div style="width: 80%; flex-grow: 1; padding: 1rem;">
                 <h2 id="preview-title"></h2>
                 <div>
                     <img style="max-width: 300px; max-height: 300px" id="preview-image" />
