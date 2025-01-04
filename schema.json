@@ -35,6 +35,14 @@
                 },
                 "minItems": 1,
                 "uniqueItems": true
+            },
+            "brands": {
+                "description": "Tags and keywords for the shop to help with filtering",
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "uniqueItems": true
             }
         },
         "required": ["id", "name"]

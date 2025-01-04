@@ -62,5 +62,13 @@
         "address": "Delaware",
         "country": "USA",
         "tags": ["online only", "stickers", "notebooks"]
+    }, {
+        "id": 6407898,
+        "name": "Paper Miru",
+        "link": "https://paperimuru.com/",
+        "address": "",
+        "country": "Finland",
+        "tags": ["online only", "stickers", "notebooks"],
+        "brands": ["Apica", "Beverly", "BGM", "Chikyu Greetings", "CoraCreaCrafts", "Esther Bennink", "Georgiou Draws", "Hightide", "Hobonichi", "Kamiiso Sansyo", "Kamio Japan", "King Jim Hitotoki", "Kleid", "Kokuyo", "La Dolce Vita", "Life", "Loidesign", "Midori", "Mind Wave", "Mitsubishi Uni-Ball", "MU Life Style", "Nakabayashi", "Nikki Dotti", "Nolty", "OHTO", "Paperimuru Gift Cards", "Penco", "Pion", "Platinum", "PLUS", "Q-Lia", "RYU-RYU", "SakaeTP", "Shinzi Katoh", "Sotlight", "Stalogy", "Sun-Star", "Take a Note", "The Washi Tape Shop", "Tombow", "Traveler's Company", "Tsubame", "Wonderland222", "World Craft Co.", "Z&K", "Zebra", "Zig Kuretake"]
     }
 ]
