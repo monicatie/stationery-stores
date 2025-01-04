@@ -52,7 +52,7 @@
 
         function getBrands(shops) {
             const allBrands = shops.flatMap(s => s.brands || []);
-            return Array.from(new Set(allBrands)).sort();
+            return Array.from(new Set(allBrands)).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
         }
 
         function applyFilter(shops) {
