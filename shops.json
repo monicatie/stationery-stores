@@ -6,7 +6,7 @@
         "link": "https://www.niconeco.com",
         "address": "263 East 10th Street, New York 10009",
         "country": "USA",
-        "tags": [],
+        "tags": ["stickers", "fountain pens", "ink", "stamps", "seals", "paper", "notebooks", "washi tape"],
         "brands": ["4 Legs", "À L'AISE Calligraphy", "Brown Parcel Press", "Belinda Love Lee", "Black Milk Project", "Japanese Watercolor Supplies", "Catdoo", "Classiky", "DELFONICS", "Dodolulu Design", "Egg Press Letterpress", "Emily Lex Watercolor", "Fugu Fugu Press", "Farmette", "FURUKAWA Paper", "Field Notes", "HANEN Studio", "Hobonichi", "HUTTE Paper Works", "Ivy Snow"]
     }, {
         "id": 68755791,
@@ -23,7 +23,7 @@
         "link": "https://www.luiban.com",
         "address": "Rosa-Luxemburg-Straße 28, Berlin",
         "country": "Germany",
-        "tags": [],
+        "tags": ["notebooks", "planners", "fountain pens", "ink", "stickers", "washi tape", "paper"],
         "brands": ["Apica", "Ballograf", "Bindewerk", "Blackwing", "Hobonichi", "Kami", "Kamoi MT", "Kaweco", "Koh-I-Noor", "Kokuyo", "Kwz Ink", "Kunisawa", "Lamy", "Maruman", "Midori", "Ohto", "Papierniczeni", "Papoutsi", "Pentel", "Pilot", "Platinum", "Sonnenleder", "Stalogy", "Tombow", "Traveler's Company", "Traveler's Factory", "Twsbi", "Uni"]
     }, {
         "id": 75819041,
@@ -32,7 +32,7 @@
         "link": "https://www.maido-okini.com",
         "address": "Charlottenburger Str. 62-64, 13086 Berlin",
         "country": "Germany",
-        "tags": [],
+        "tags": ["stickers", "paper", "notebooks", "washi tape"],
         "brands": ["Akashiya", "Furukawa Shiko", "General Sticker", "HANKO SEAL", "Kamidea", "Kamiiso", "kleid", "Kuretake", "maruman", "Mildliner", "Mind Wave", "mori", "NB", "OHTO", "Sakae Technical Paper", "Shinnipon Printing Inc.", "Shogado", "ZEBRA"]
     }, {
         "id": 68009276,
@@ -41,7 +41,7 @@
         "link": "https://www.cafe-analog.nl",
         "address": "Raadhuisstraat 15, 1016DB Amsterdam",
         "country": "Netherlands",
-        "tags": [],
+        "tags": ["notebooks", "paper", "planners", "stamps", "washi tape", "seals"],
         "brands": ["63penhouse", "A Kind of Cafe", "Absent Studio", "Akiko Okajima", "Ana Jiménez", "Avocado Mori", "Awagami Factory", "Bande", "Baum-kuchen", "Beverly Ink", "BGM", "BigHands", "Black Milk Project", "Blinks of Life", "Bonox by Team Dulton", "Breezy Studio", "Cafe Analog", "CAFE ANALOG exclusive", "Catslife Press", "Cheeryletters", "Classiky", "Cotori Cotori", "Cozyca", "Dodolulu Design", "Dulton", "Dyna Paperie", "Earthly Records", "Eileen Tai", "El Commun", "Elsie with love", "Elysian Paper", "Eric Small Things", "Fairy Maru", "Freckles Tea", "fstudio", "Furukawashiko", "Furukwashiko", "GOAT", "Hairmo", "Hanen Studio", "Hankodori", "Hara Wool", "Hightide", "Himekuri", "Hitotoki", "Ivy Snow", "Jesslynn Padilla", "JieYanow Atelier", "JournalPages Addict", "Jr.Journal", "Kamiterior", "Kitta", "Knoop Works", "Kobo Ren", "Kodomo no kao", "Kohunkan Kappansho", "Kokuyo", "Krimgen", "Kuretake", "Kurukynki", "Lamp Paperi", "LCN Lin Chia Ning", "Liberty HK", "LIKE Studio", "Listeninda", "Little Lu", "Loi Design", "Lucky Deer", "Ma7Stamp", "Mariko Fukuoka", "Matoka", "Meow Illustration", "Miao Stelle", "Midori", "Miki tamura", "Mind Wave", "misshoegg", "Mizushima", "Modaizhi", "Mori Ringo", "Mr. Eggplant", "Ms Bulat", "mt masking tape", "Mu design", "MU LifeStyle", "NB Japan", "Necktie", "Nishi Shuku", "Nombre", "Nove Production", "Nyret", "Oeda Letterpress", "of6withlove", "Old Resta x Kuretake", "Ours", "PapierPlatz", "Penco", "penspapersplanner", "PePePe", "Petra Brcic", "Phavourite.co", "Pine Book", "Pion", "Plusminus", "Pooi Chin", "Put and Paper", "Ranmyu", "Raw Market Shop", "Rhodia", "Sailor", "Sanby", "Sanseido", "Sarica Studio", "Shachihata", "Shinnippon", "Shogado Yuzen", "SOM Studio", "SomeSoftofFern", "Sora", "Stamp Marche", "Stamptitude", "Stationery Instinct", "StaZon", "SUBLO", "Sunny Sunday", "TeaYouShop", "The Cabinets", "Tijana Lukovic", "Toyo Steel", "Traditional Japanese Stamp", "Traveler's Company", "Traveling on Paper", "Tsubame", "Tsukineko", "Two Black Circles", "Usagi Print", "Viola Japan", "Windry Ramadhina", "wwiinngg", "Yamadoro", "Yeon Charm", "Yohaku", "Yohand Studio", "Yuka Butter", "Zebra Sarasa"]
     }, {
         "id": 59075659,
@@ -50,7 +50,7 @@
         "link": "https://www.mlovewell.com",
         "address": "115 N Orange St., Orange, CA 92866",
         "country": "USA",
-        "tags": [],
+        "tags": ["notebooks", "planners", "fountain pens", "ink", "stickers", "washi tape"],
         "brands": ["Hobonichi", "Traveler's Company"]
     }, {
         "id": 93625747,
@@ -59,7 +59,7 @@
         "link": "https://paperplant.co",
         "address": "938 N Hill St, Los Angeles, CA 90012",
         "country": "USA",
-        "tags": []
+        "tags": ["notebooks", "stickers", "washi tape", "fountain pens", "planners", "stamps"]
     }, {
         "id": 8923034,
         "name": "crea with gaby",
@@ -75,7 +75,7 @@
         "link": "https://saricastudio.com/",
         "address": "Delaware",
         "country": "USA",
-        "tags": [],
+        "tags": ["notebooks", "stickers"],
         "brands": ["Sarica Studio"]
     }, {
         "id": 6407898,
@@ -84,7 +84,7 @@
         "link": "https://paperimuru.com/",
         "address": "",
         "country": "Finland",
-        "tags": [],
+        "tags": ["planners", "stickers", "washi tape", "notebooks", "stamps", "paper"],
         "brands": ["Apica", "Beverly", "BGM", "Chikyu Greetings", "CoraCreaCrafts", "Esther Bennink", "Georgiou Draws", "Hightide", "Hobonichi", "Kamiiso Sansyo", "Kamio Japan", "King Jim Hitotoki", "Kleid", "Kokuyo", "La Dolce Vita", "Life", "Loidesign", "Midori", "Mind Wave", "Mitsubishi Uni-Ball", "MU LifeStyle", "Nakabayashi", "Nikki Dotti", "Nolty", "OHTO", "Paperimuru Gift Cards", "Penco", "Pion", "Platinum", "PLUS", "Q-Lia", "RYU-RYU", "Sakae Technical Paper", "Shinzi Katoh", "Sotlight", "Stalogy", "Sun-Star", "Take a Note", "The Washi Tape Shop", "Tombow", "Traveler's Company", "Tsubame", "Wonderland222", "World Craft Co.", "Z&K", "Zebra", "Zig Kuretake"]
     }, {
         "id": 58201684,
@@ -93,7 +93,7 @@
         "link": "https://www.baum-kuchen.net/",
         "address": "2351 Lincoln Avenue Altadena, CA 91001",
         "country": "USA",
-        "tags": [],
+        "tags": ["notebooks", "planners", "stickers", "stamps", "fountain pens", "ink", "washi tape", "seals"],
         "brands": ["1.61 Soft Goods", "19 Candles", "Asilda Store", "ATELEIA", "ateliers PENELOPE", "Baum-kuchen", "Blackwing", "Classiky", "Hobonichi", "Irojiten Color Pencil", "Jibun Techo", "Kaweco", "Kitta", "Kleid", "Knoten", "Kokuyo", "Kuretake", "Lamy", "Midori", "Mildliner", "MINOTAKE Bamboo", "Mizushima", "Paperphine", "Postalco", "Roterfaden", "Stalogy", "Steinhoringer Werkstatten", "suatelier design", "The Superior Labor", "TOYO Steel Box", "Traveler's Company", "Uni-Ball", "Yohaku", "Yuruliku"]
     }, {
         "id": 10018192,
@@ -102,7 +102,7 @@
         "link": "https://papeterie-makkura.fr/",
         "address": "28 avenue Raspail 94250 Gentilly",
         "country": "France",
-        "tags": [],
+        "tags": ["fountain pens", "ink", "notebooks", "seals", "stickers", "stamps", "paper"],
         "brands": ["Akashiya", "Apica", "Brause", "Clairefontaine", "Drillog", "Ferris Wheel Press", "Furukawashiko", "G.Lalo", "General Pencil Company", "Hana Kanehisa", "Jacques Herbin", "Kakimori", "Kamio Japan", "Kaweco", "Kokuyo", "Mark's", "Midori", "Monteverde USA", "mt masking tape", "Octopus Fluids", "OHTO", "Okamoto Shoten", "Pelikan", "Pilot", "Platinum", "Private Reserve", "Punilabo", "Rhodia", "Rohrer & Klingner", "RYU-RYU", "Sailor", "Seed", "Skylab Letterpress", "TAPE STATION", "Tombow", "Tomoe River", "Tools To Liveby", "Traveler's Company", "Uni-Ball"]
     }, {
         "id": 10032001,
@@ -111,7 +111,7 @@
         "link": "https://www.stiloestile.com",
         "address": "Via Gallia, 101/a - 00183 Roma",
         "country": "Italy",
-        "tags": [],
+        "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stamps", "stickers", "washi tape"],
         "brands": ["Armando Simoni Club", "Aurora", "Bande", "Benu", "Blackwing", "Bungubox", "Caran d'Ache", "Color Traveler", "Colorverse", "Delta", "Diamine", "Dolcevita", "Dominant Industry Ink", "Eboya", "EGO.M", "Esterbrook", "Faber Castell", "Ferris Wheel Press", "Franklin-Christoph", "Galen Leather", "Gioia", "Graf von Faber Castell", "Guitar", "Hightide", "Hobonichi", "IKKAKU by Nahvalur", "Ink Institute", "J. Herbin", "Kakimori", "Kaweco", "Kilk", "Kobeha", "Kokuyo", "Kuretake", "KWZ Ink", "Kyoku Haku", "Kyoto Ink", "Laban", "Lamy", "Lennon Tool Bar", "Leonardo Officina Italiana", "Magna Carta", "Maiora", "MD Paper", "Midori", "Montegrappa", "mt masking tape", "Naessi", "Nahvalur", "Namiki", "Nettuno", "Noodler's", "Omas", "Opus 88", "Pelikan", "Penco", "Pilot", "Pineider", "Pininfarina Segno", "Platinum", "Radius", "Rhodia", "Robert Oster", "Rohrer & Klingner", "Sailor", "Sakae Technical Paper", "Saki", "Schmidt", "Scribo", "Stilo&Stile", "Stipula", "Taccia", "Tibaldi", "Tono & Lims", "Traveler's Company", "Twsbi", "Wearingeul", "Yamamoto Paper", "Yu-Sari Paper"]
     }, {
         "id": 22530,
@@ -120,7 +120,7 @@
         "link": "https://www.papierundstift.de",
         "address": "Taunusstr. 17 35510 Butzbach",
         "country": "Germany",
-        "tags": [],
+        "tags": ["fountain pens", "ink", "paper", "notebooks"],
         "brands": ["Atom", "Diamines", "Esterbrook", "Ferris Wheel Press", "Kaweco", "Leuchtturm 1917", "Midori", "Nuuna", "Pilot", "Platinum", "Rhodia", "Robert Oster", "Sailor", "Tomoe River", "Traveler's Company", "TWSBI", "Wearingeul"]
     }
 ]

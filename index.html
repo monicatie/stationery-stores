@@ -57,7 +57,7 @@
 
         function applyFilter(shops) {
             const selectedBrand = document.getElementById('brand-select').value;
-            if (selectedBrand === "None") {
+            if (selectedBrand === "All Brands") {
                 displayList(shops);
             } else {
                 const filteredItems = getShopsByBrand(shops, selectedBrand);
@@ -71,8 +71,8 @@
 
             // Add default option
             const noneOption = document.createElement('option');
-            noneOption.value = "None";
-            noneOption.textContent = "None";
+            noneOption.value = "All Brands";
+            noneOption.textContent = "All Brands";
             brandSelect.appendChild(noneOption);
 
             // Add brand options
@@ -95,8 +95,7 @@
                     const el = document.createElement('div');
 
                     const ela = document.createElement('a');
-                    ela.innerHTML = `<strong>${shop.name}</strong> - `;
-                    ela.innerHTML = ela.innerHTML + shop.country;
+                    ela.innerHTML = `<strong>${shop.name}</strong>`;
                     ela.href = '#'
                     ela.addEventListener('click', (e) => {
                         const apiKey = 'ba1959eddd01d82b1d7796e3aa62aabd';
@@ -123,10 +122,15 @@
                         document.getElementById('preview-address').innerHTML = shop.address
                         document.getElementById('button-container').innerHTML = `<a href="${url}" target="_blank" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
                     })
+                    const countryEl = document.createElement('div');
+                    countryEl.innerHTML = shop.country;
+
                     const tagsEl = document.createElement('div');
                     tagsEl.className = 'tags'
-                    tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.join(", ") : null;
-                    el.appendChild(ela)
+                    tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.sort().join(", ") : null;
+
+                    el.appendChild(ela);
+                    el.appendChild(countryEl);
                     el.appendChild(tagsEl);
                     container.appendChild(el);
                 });
@@ -155,15 +159,17 @@
     </header>
 
     <main>
+        <div class="filters">
+            <form id="filter-form">
+
+                <label for="brand-select">Choose a brand:</label>
+                <select id="brand-select"></select>
+                <button onclick="applyFilter(SHOPS_GLOBAL)">Filter</button>
+            </form>
+        </div>
         <div style="display: flex; height: 100vh;">
             <!-- Left Panel: List of Shops -->
             <div style="width: 20%; min-width: 150px; border-right: 1px solid #ccc; overflow-y: auto; padding: 1rem;">
-                <div>
-                    <label for="brand-select">Choose a brand:</label>
-                    <select id="brand-select">
-                    </select>
-                    <button onclick="applyFilter(SHOPS_GLOBAL)">Filter</button>
-                </div>
                 <div id="shops-list">
                 </div>
             </div>
