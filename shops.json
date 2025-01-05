@@ -33,7 +33,7 @@
         "address": "Charlottenburger Str. 62-64, 13086 Berlin",
         "country": "Germany",
         "tags": [],
-        "brands": ["Akashiya", "Furukawa Shiko", "General Sticker", "HANKO SEAL", "Kamidea", "Kamiiso", "kleid", "Kuretake", "maruman", "Mildliner", "MIND WAVE", "mori", "NB", "OHTO", "Sakae", "Shinnipon Printing Inc.", "Shogado", "ZEBRA"]
+        "brands": ["Akashiya", "Furukawa Shiko", "General Sticker", "HANKO SEAL", "Kamidea", "Kamiiso", "kleid", "Kuretake", "maruman", "Mildliner", "MIND WAVE", "mori", "NB", "OHTO", "Sakae Technical Paper", "Shinnipon Printing Inc.", "Shogado", "ZEBRA"]
     }, {
         "id": 68009276,
         "name": "Cafe Analog",
@@ -85,7 +85,7 @@
         "address": "",
         "country": "Finland",
         "tags": [],
-        "brands": ["Apica", "Beverly", "BGM", "Chikyu Greetings", "CoraCreaCrafts", "Esther Bennink", "Georgiou Draws", "Hightide", "Hobonichi", "Kamiiso Sansyo", "Kamio Japan", "King Jim Hitotoki", "Kleid", "Kokuyo", "La Dolce Vita", "Life", "Loidesign", "Midori", "Mind Wave", "Mitsubishi Uni-Ball", "MU Life Style", "Nakabayashi", "Nikki Dotti", "Nolty", "OHTO", "Paperimuru Gift Cards", "Penco", "Pion", "Platinum", "PLUS", "Q-Lia", "RYU-RYU", "SakaeTP", "Shinzi Katoh", "Sotlight", "Stalogy", "Sun-Star", "Take a Note", "The Washi Tape Shop", "Tombow", "Traveler's Company", "Tsubame", "Wonderland222", "World Craft Co.", "Z&K", "Zebra", "Zig Kuretake"]
+        "brands": ["Apica", "Beverly", "BGM", "Chikyu Greetings", "CoraCreaCrafts", "Esther Bennink", "Georgiou Draws", "Hightide", "Hobonichi", "Kamiiso Sansyo", "Kamio Japan", "King Jim Hitotoki", "Kleid", "Kokuyo", "La Dolce Vita", "Life", "Loidesign", "Midori", "Mind Wave", "Mitsubishi Uni-Ball", "MU Life Style", "Nakabayashi", "Nikki Dotti", "Nolty", "OHTO", "Paperimuru Gift Cards", "Penco", "Pion", "Platinum", "PLUS", "Q-Lia", "RYU-RYU", "Sakae Technical Paper", "Shinzi Katoh", "Sotlight", "Stalogy", "Sun-Star", "Take a Note", "The Washi Tape Shop", "Tombow", "Traveler's Company", "Tsubame", "Wonderland222", "World Craft Co.", "Z&K", "Zebra", "Zig Kuretake"]
     }, {
         "id": 58201684,
         "name": "Baum-kuchen",
@@ -104,5 +104,23 @@
         "country": "France",
         "tags": [],
         "brands": ["Akashiya", "Apica", "Brause", "Clairefontaine", "Drillog", "Ferris Wheel Press", "Furukawashiko", "G.Lalo", "General Pencil Company", "Hana Kanehisa", "Jacques Herbin", "Kakimori", "Kamio Japan", "Kaweco", "Kokuyo", "Mark's", "Midori", "Monteverde USA", "mt masking tape", "Octopus Fluids", "OHTO", "Okamoto Shoten", "Pelikan", "Pilot", "Platinum", "Private Reserve", "Punilabo", "Rhodia", "Rohrer & Klingner", "RYU-RYU", "Sailor", "Seed", "Skylab Letterpress", "TAPE STATION", "Tombow", "Tomoe River", "Tools To Liveby", "Traveler's Company", "Uni-Ball"]
+    }, {
+        "id": 10032001,
+        "name": "Stilo & Stile",
+        "type": "Curator",
+        "link": "https://www.stiloestile.com",
+        "address": "Via Gallia, 101/a - 00183 Roma",
+        "country": "Italy",
+        "tags": [],
+        "brands": ["Armando Simoni Club", "Aurora", "Bande", "Benu", "Blackwing", "Bungubox", "Caran d'Ache", "Color Traveler", "Colorverse", "Delta", "Diamine", "Dolcevita", "Dominant Industry Ink", "Eboya", "EGO.M", "Esterbrook", "Faber Castell", "Ferris Wheel Press", "Franklin-Christoph", "Galen Leather", "Gioia", "Graf von Faber Castell", "Guitar", "Hightide", "Hobonichi", "IKKAKU by Nahvalur", "Ink Institute", "J. Herbin", "Kakimori", "Kaweco", "Kilk", "Kobeha", "Kokuyo", "Kuretake", "KWZ Ink", "Kyoku Haku", "Kyoto Ink", "Laban", "Lamy", "Lennon Tool Bar", "Leonardo Officina Italiana", "Magna Carta", "Maiora", "MD Paper", "Midori", "Montegrappa", "MT Masking Tape", "Naessi", "Nahvalur", "Namiki", "Nettuno", "Noodler's", "Omas", "Opus 88", "Pelikan", "Penco", "Pilot", "Pineider", "Pininfarina Segno", "Platinum", "Radius", "Rhodia", "Robert Oster", "Rohrer & Klingner", "Sailor", "Sakae Technical Paper", "Saki", "Schmidt", "Scribo", "Stilo&Stile", "Stipula", "Taccia", "Tibaldi", "Tono & Lims", "Traveler's Company", "Twsbi", "Wearingeul", "Yamamoto Paper", "Yu-Sari Paper"]
+    }, {
+        "id": 22530,
+        "name": "Papier & Stift",
+        "type": "Curator",
+        "link": "https://www.papierundstift.de",
+        "address": "Taunusstr. 17 35510 Butzbach",
+        "country": "Germany",
+        "tags": [],
+        "brands": ["Atom", "Diamines", "Esterbrook", "Ferris Wheel Press", "Kaweco", "Leuchtturm 1917", "Midori", "Nuuna", "Pilot", "Platinum", "Rhodia", "Robert Oster", "Sailor", "Tomoe River", "Traveler's Company", "TWSBI", "Wearingeul"]
     }
 ]
