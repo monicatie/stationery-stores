@@ -46,8 +46,33 @@
         // Global list of shops
         let SHOPS_GLOBAL = [];
 
+        function inTheEU(country) {
+            switch (country) {
+                case "Finland":
+                case "France":
+                case "Germany":
+                case "Ireland":
+                case "Italy":
+                case "Netherlands":
+                    return true;
+                default:
+                    return false;
+            }
+        }
+
         function getShopsByBrand(shops, brand) {
             return shops.filter(s => s.brands && s.brands.includes(brand));
+        }
+
+        function getShopsByCountry(shops, country) {
+            if (country === "EU") {
+                return shops.filter(s => inTheEU(s.country))
+            }
+            return shops.filter(s => s.country && s.country.includes(country));
+        }
+
+        function getShopsByType(shops, type) {
+            return shops.filter(s => s.type === type);
         }
 
         function getBrands(shops) {
@@ -57,12 +82,20 @@
 
         function applyFilter(shops) {
             const selectedBrand = document.getElementById('brand-select').value;
-            if (selectedBrand === "All Brands") {
-                displayList(shops);
-            } else {
-                const filteredItems = getShopsByBrand(shops, selectedBrand);
-                displayList(filteredItems);
+            const selectedCountry = document.getElementById('country-select').value;
+            const selectedType = document.getElementById('shopType-select').value;
+
+            let filteredShops = shops;
+            if (selectedBrand !== "Any") {
+                filteredShops = getShopsByBrand(filteredShops, selectedBrand);
             }
+            if (selectedCountry !== "Any") {
+                filteredShops = getShopsByCountry(filteredShops, selectedCountry);
+            }
+            if (selectedType !== "Any") {
+                filteredShops = getShopsByType(filteredShops, selectedType);
+            }
+            displayList(filteredShops);
         }
 
         function populateBrands(shops) {
@@ -71,8 +104,8 @@
 
             // Add default option
             const noneOption = document.createElement('option');
-            noneOption.value = "All Brands";
-            noneOption.textContent = "All Brands";
+            noneOption.value = "Any";
+            noneOption.textContent = "Any";
             brandSelect.appendChild(noneOption);
 
             // Add brand options
@@ -161,9 +194,32 @@
     <main>
         <div class="filters">
             <form id="filter-form">
-
-                <label for="brand-select">Choose a brand:</label>
+                <label for="brand-select">Brand:</label>
                 <select id="brand-select"></select>
+
+                <label for="tag-select">Tag:</label>
+                <select id="tag-select"><option>Coming Soon</option></select>
+
+                <label for="country-select">Country:</label>
+                <select id="country-select">
+                    <option value="">Any</option>
+                    <option value="USA">USA</option>
+                    <option value="EU">--EU--</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Netherlands">Netherlands</option>
+                </select>
+
+                <label for="shopType-select">Shop Type:</label>
+                <select id="shopType-select">
+                    <option value="Any">Any</option>
+                    <option value="Artist">Artist</option>
+                    <option value="Curator">Curator</option>
+                </select>
+
                 <button onclick="applyFilter(SHOPS_GLOBAL)">Filter</button>
             </form>
         </div>
