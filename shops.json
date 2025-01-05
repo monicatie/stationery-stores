@@ -86,5 +86,23 @@
         "country": "Finland",
         "tags": [],
         "brands": ["Apica", "Beverly", "BGM", "Chikyu Greetings", "CoraCreaCrafts", "Esther Bennink", "Georgiou Draws", "Hightide", "Hobonichi", "Kamiiso Sansyo", "Kamio Japan", "King Jim Hitotoki", "Kleid", "Kokuyo", "La Dolce Vita", "Life", "Loidesign", "Midori", "Mind Wave", "Mitsubishi Uni-Ball", "MU Life Style", "Nakabayashi", "Nikki Dotti", "Nolty", "OHTO", "Paperimuru Gift Cards", "Penco", "Pion", "Platinum", "PLUS", "Q-Lia", "RYU-RYU", "SakaeTP", "Shinzi Katoh", "Sotlight", "Stalogy", "Sun-Star", "Take a Note", "The Washi Tape Shop", "Tombow", "Traveler's Company", "Tsubame", "Wonderland222", "World Craft Co.", "Z&K", "Zebra", "Zig Kuretake"]
+    }, {
+        "id": 58201684,
+        "name": "Baum-kuchen",
+        "type": "Artist",
+        "link": "https://www.baum-kuchen.net/",
+        "address": "2351 Lincoln Avenue Altadena, CA 91001",
+        "country": "USA",
+        "tags": [],
+        "brands": ["1.61 Soft Goods", "19 Candles", "Asilda Store", "ATELEIA", "ateliers PENELOPE", "Baum-kuchen", "Blackwing", "Classiky", "Hobonichi", "Irojiten Color Pencil", "Jibun Techo", "Kaweco", "Kitta", "Kleid", "Knoten", "Kokuyo", "Kuretake", "Lamy", "Midori", "Mildliner", "MINOTAKE Bamboo", "Mizushima", "Paperphine", "Postalco", "Roterfaden", "Stalogy", "Steinhoringer Werkstatten", "suatelier design", "The Superior Labor", "TOYO Steel Box", "Traveler's Company", "Uni-Ball", "Yohaku", "Yuruliku"]
+    }, {
+        "id": 10018192,
+        "name": "Papeterie Makkuran",
+        "type": "Curator",
+        "link": "https://papeterie-makkura.fr/",
+        "address": "28 avenue Raspail 94250 Gentilly",
+        "country": "France",
+        "tags": [],
+        "brands": ["Akashiya", "Apica", "Brause", "Clairefontaine", "Drillog", "Ferris Wheel Press", "Furukawashiko", "G.Lalo", "General Pencil Company", "Hana Kanehisa", "Jacques Herbin", "Kakimori", "Kamio Japan", "Kaweco", "Kokuyo", "Mark's", "Midori", "Monteverde USA", "mt masking tape", "Octopus Fluids", "OHTO", "Okamoto Shoten", "Pelikan", "Pilot", "Platinum", "Private Reserve", "Punilabo", "Rhodia", "Rohrer & Klingner", "RYU-RYU", "Sailor", "Seed", "Skylab Letterpress", "TAPE STATION", "Tombow", "Tomoe River", "Tools To Liveby", "Traveler's Company", "Uni-Ball"]
     }
 ]
