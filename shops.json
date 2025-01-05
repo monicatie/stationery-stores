@@ -24,7 +24,7 @@
         "address": "Rosa-Luxemburg-Straße 28, Berlin",
         "country": "Germany",
         "tags": ["notebooks", "planners", "fountain pens", "ink", "stickers", "washi tape", "paper"],
-        "brands": ["Apica", "Ballograf", "Bindewerk", "Blackwing", "Hobonichi", "Kami", "Kamoi MT", "Kaweco", "Koh-I-Noor", "Kokuyo", "Kwz Ink", "Kunisawa", "Lamy", "Maruman", "Midori", "Ohto", "Papierniczeni", "Papoutsi", "Pentel", "Pilot", "Platinum", "Sonnenleder", "Stalogy", "Tombow", "Traveler's Company", "Traveler's Factory", "Twsbi", "Uni"]
+        "brands": ["Apica", "Ballograf", "Bindewerk", "Blackwing", "Hobonichi", "Kami", "Kamoi MT", "Kaweco", "Koh-I-Noor", "Kokuyo", "Kwz Ink", "Kunisawa", "Lamy", "Maruman", "Midori", "Ohto", "Papierniczeni", "Papoutsi", "Pentel", "Pilot", "Platinum", "Sonnenleder", "Stalogy", "Tombow", "Traveler's Company", "Traveler's Factory", "TWSBI", "Uni"]
     }, {
         "id": 75819041,
         "name": "Maido Okini",
@@ -91,7 +91,7 @@
         "name": "Baum-kuchen",
         "type": "Artist",
         "link": "https://www.baum-kuchen.net/",
-        "address": "2351 Lincoln Avenue Altadena, CA 91001",
+        "address": "2351 Lincoln Avenue, Altadena, CA 91001",
         "country": "USA",
         "tags": ["notebooks", "planners", "stickers", "stamps", "fountain pens", "ink", "washi tape", "seals"],
         "brands": ["1.61 Soft Goods", "19 Candles", "Asilda Store", "ATELEIA", "ateliers PENELOPE", "Baum-kuchen", "Blackwing", "Classiky", "Hobonichi", "Irojiten Color Pencil", "Jibun Techo", "Kaweco", "Kitta", "Kleid", "Knoten", "Kokuyo", "Kuretake", "Lamy", "Midori", "Mildliner", "MINOTAKE Bamboo", "Mizushima", "Paperphine", "Postalco", "Roterfaden", "Stalogy", "Steinhoringer Werkstatten", "suatelier design", "The Superior Labor", "TOYO Steel Box", "Traveler's Company", "Uni-Ball", "Yohaku", "Yuruliku"]
@@ -112,15 +112,33 @@
         "address": "Via Gallia, 101/a - 00183 Roma",
         "country": "Italy",
         "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stamps", "stickers", "washi tape"],
-        "brands": ["Armando Simoni Club", "Aurora", "Bande", "Benu", "Blackwing", "Bungubox", "Caran d'Ache", "Color Traveler", "Colorverse", "Delta", "Diamine", "Dolcevita", "Dominant Industry Ink", "Eboya", "EGO.M", "Esterbrook", "Faber Castell", "Ferris Wheel Press", "Franklin-Christoph", "Galen Leather", "Gioia", "Graf von Faber Castell", "Guitar", "Hightide", "Hobonichi", "IKKAKU by Nahvalur", "Ink Institute", "J. Herbin", "Kakimori", "Kaweco", "Kilk", "Kobeha", "Kokuyo", "Kuretake", "KWZ Ink", "Kyoku Haku", "Kyoto Ink", "Laban", "Lamy", "Lennon Tool Bar", "Leonardo Officina Italiana", "Magna Carta", "Maiora", "MD Paper", "Midori", "Montegrappa", "mt masking tape", "Naessi", "Nahvalur", "Namiki", "Nettuno", "Noodler's", "Omas", "Opus 88", "Pelikan", "Penco", "Pilot", "Pineider", "Pininfarina Segno", "Platinum", "Radius", "Rhodia", "Robert Oster", "Rohrer & Klingner", "Sailor", "Sakae Technical Paper", "Saki", "Schmidt", "Scribo", "Stilo&Stile", "Stipula", "Taccia", "Tibaldi", "Tono & Lims", "Traveler's Company", "Twsbi", "Wearingeul", "Yamamoto Paper", "Yu-Sari Paper"]
+        "brands": ["Armando Simoni Club", "Aurora", "Bande", "Benu", "Blackwing", "Bungubox", "Caran d'Ache", "Color Traveler", "Colorverse", "Delta", "Diamine", "Dolcevita", "Dominant Industry Ink", "Eboya", "EGO.M", "Esterbrook", "Faber Castell", "Ferris Wheel Press", "Franklin-Christoph", "Galen Leather", "Gioia", "Graf von Faber Castell", "Guitar", "Hightide", "Hobonichi", "IKKAKU by Nahvalur", "Ink Institute", "J. Herbin", "Kakimori", "Kaweco", "Kilk", "Kobeha", "Kokuyo", "Kuretake", "KWZ Ink", "Kyoku Haku", "Kyoto Ink", "Laban", "Lamy", "Lennon Tool Bar", "Leonardo Officina Italiana", "Magna Carta", "Maiora", "MD Paper", "Midori", "Montegrappa", "mt masking tape", "Naessi", "Nahvalur", "Namiki", "Nettuno", "Noodler's", "Omas", "Opus 88", "Pelikan", "Penco", "Pilot", "Pineider", "Pininfarina Segno", "Platinum", "Radius", "Rhodia", "Robert Oster", "Rohrer & Klingner", "Sailor", "Sakae Technical Paper", "Saki", "Schmidt", "Scribo", "Stilo&Stile", "Stipula", "Taccia", "Tibaldi", "Tono & Lims", "Traveler's Company", "TWSBI", "Wearingeul", "Yamamoto Paper", "Yu-Sari Paper"]
     }, {
         "id": 22530,
         "name": "Papier & Stift",
         "type": "Curator",
         "link": "https://www.papierundstift.de",
-        "address": "Taunusstr. 17 35510 Butzbach",
+        "address": "Taunusstr. 17, 35510 Butzbach",
         "country": "Germany",
-        "tags": ["fountain pens", "ink", "paper", "notebooks"],
+        "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stickers", "stamps", "washi tape"],
         "brands": ["Atom", "Diamines", "Esterbrook", "Ferris Wheel Press", "Kaweco", "Leuchtturm 1917", "Midori", "Nuuna", "Pilot", "Platinum", "Rhodia", "Robert Oster", "Sailor", "Tomoe River", "Traveler's Company", "TWSBI", "Wearingeul"]
+    }, {
+        "id": 31481,
+        "name": "Escribo",
+        "type": "Curator",
+        "link": "https://sklep.escribo.pl",
+        "address": "Plebiscytowa 17, 40-035 Katowice",
+        "country": "Poland",
+        "tags": ["fountain pens", "ink", "paper", "notebooks"],
+        "brands": ["A-Journal", "Apica", "Blackwing", "Bomo Art", "Brause", "Caran D'Ache", "Carl Tokyo", "Chronicle Books", "CIAK", "Clairefontaine", "Clipen", "Cognitive Surplus", "COLOP", "COLORVERSE INK", "Craft Design Technology", "Cross", "Delfonics", "Derwent", "DESIGNWORKS INK", "Esterbrook", "Faber-Castell", "Ferris Wheel Press", "Field Notes", "G.Lalo", "Gallery Leather", "Graf von Faber-Castell", "Hibi", "Hightide", "Hobonichi", "ICONIC", "J. Herbin", "Kaco", "Kakimori", "Kaweco", "King Jim", "Kornet & Hahn", "Krishna Inks", "KUM", "Kuretake", "Lamy", "Leuchtturm", "LiFE", "Lihit Lab", "Maruman", "Marvy Uchida", "MD Paper", "Midori", "mt masking tape", "MU Lifestyle", "Nikko", "OBJECT INDEX", "OCTAEVO", "Paw Generation", "Pelikan", "Penac", "penco", "Penny Puzzle", "Pentel", "PICUS", "Pilot", "Platinum", "PLUS", "Pop Out Card Company", "Ridley's Games", "Roman Szmal Art", "Sailor", "Sakura", "Santoro London", "SECRID", "SEED", "Sheaffer", "SM-LT Art", "Sonnenleder", "SUCK UK", "Take a Note", "Talens", "THE PATTERN BOOK", "The Superior Labor", "TODAY IS ART DAY", "Tomoe River", "Tools to Liveby", "Toyo Steel", "Traveler's Company", "Traveler's Factory", "Troika", "TWSBI", "Visconti", "Waldmann", "Wearingeul", "WERKHAUS", "Whitelines", "Willwa", "Yamada", "Ystudio", "Zebra", "Zieler"]
+    }, {
+        "id": 69582321,
+        "name": "Komadori",
+        "type": "Curator",
+        "link": "https://komadori.se",
+        "address": "",
+        "country": "Sweden",
+        "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stamps", "washi tape"],
+        "brands": ["Apica", "BGM", "Carl", "Hightide", "ICONIC", "Kakimori", "Kawachiya", "King Jim", "Kobeha", "Kokuyo", "Kunisawa", "Kuretake", "Kutsuwa", "Kyoei", "LIFE", "LIHIT LAB", "Maruman", "Midori", "Nanami", "OHTO", "Penco", "Pentel", "Pilot", "Point", "Raymay", "Sailor", "Saki", "Shogado", "Sonic", "Staedtler", "Stálogy", "The Superior Labor", "Taccia", "Tachikawa", "Takeda Jimuki (TAG)", "Teranishi", "Tombow", "Traveler's Company", "Tsubame", "Tsukineko", "Uni Mitsubishi Pencil Company", "World Craft", "Yamamoto Paper", "Zebra"]
     }
 ]
