@@ -34,6 +34,16 @@
       color: gray;
     }
 
+    .shop-button {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
     footer {
       background-color: #333;
       color: #fff;
@@ -133,11 +143,18 @@
         ela.innerHTML = `<strong>${shop.name}</strong>`;
         ela.href = '#'
         ela.addEventListener('click', (e) => {
-          document.getElementById('preview-title').innerText = shop.name;
-          document.getElementById('preview-description').innerText = shop.description;
-          document.getElementById('preview-image').src = shop.screenshot;
-          document.getElementById('preview-address').innerHTML = shop.address
-          document.getElementById('button-container').innerHTML = `<a href="${shop.link}" target="_blank" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
+          const rightPanelEl = document.getElementById("rightPanel");
+          rightPanelEl.innerHTML = `
+            <h2 id="preview-title">${shop.name}</h2>
+            <div>
+              <img style="max-width: 90%" id="preview-image" src="${shop.screenshot}" alt="Screenshot of ${shop.name}'s website" />
+              <p>${shop.description}</p>
+              <p id="preview-address">${shop.address}</p>
+              <div id="button-container">
+                <a class="shop-button" href="${shop.link}" target="_blank">Go To Shop</a>
+                </div>
+            </div>
+          `;
         })
         const countryEl = document.createElement('div');
         countryEl.innerHTML = shop.country;
@@ -217,14 +234,7 @@
       </div>
 
       <!-- Right Panel: Iframe for Shop's Website -->
-      <div style="width: 80%; flex-grow: 1; padding: 1rem;">
-        <h2 id="preview-title"></h2>
-        <div>
-          <img style="max-width: 90%" id="preview-image" />
-          <p id="preview-description"></p>
-          <p id="preview-address"></p>
-          <div id="button-container"></div>
-        </div>
+      <div id="rightPanel" style="width: 80%; flex-grow: 1; padding: 1rem;">
       </div>
     </div>
   </main>
