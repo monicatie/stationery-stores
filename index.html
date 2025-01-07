@@ -127,48 +127,30 @@
 
             // Display shops dynamically
             shops.forEach(shop => {
-                    const el = document.createElement('div');
+                const el = document.createElement('div');
 
-                    const ela = document.createElement('a');
-                    ela.innerHTML = `<strong>${shop.name}</strong>`;
-                    ela.href = '#'
-                    ela.addEventListener('click', (e) => {
-                        const apiKey = 'ba1959eddd01d82b1d7796e3aa62aabd';
-                        const url = shop.link;
+                const ela = document.createElement('a');
+                ela.innerHTML = `<strong>${shop.name}</strong>`;
+                ela.href = '#'
+                ela.addEventListener('click', (e) => {
+                    document.getElementById('preview-title').innerText = shop.name;
+                    document.getElementById('preview-description').innerText = shop.description;
+                    document.getElementById('preview-image').src = shop.screenshot;
+                    document.getElementById('preview-address').innerHTML = shop.address
+                    document.getElementById('button-container').innerHTML = `<a href="${shop.link}" target="_blank" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
+                })
+                const countryEl = document.createElement('div');
+                countryEl.innerHTML = shop.country;
 
-                        // Construct the LinkPreview API request URL
-                        const requestUrl = `https://api.linkpreview.net/?key=${apiKey}&q=${encodeURIComponent(url)}`;
+                const tagsEl = document.createElement('div');
+                tagsEl.className = 'tags'
+                tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.sort().join(", ") : null;
 
-                        // Fetch the preview data
-                        fetch(requestUrl)
-                            .then(response => response.json())
-                            .then(data => {
-                                document.getElementById('preview-title').innerText = data.title || shop.name;
-                                document.getElementById('preview-description').innerText = data.description || '';
-                                document.getElementById('preview-image').src = shop.screenshot;
-                            })
-                            .catch(error => {
-                                document.getElementById('preview-title').innerText = shop.name;
-                                document.getElementById('preview-description').innerText = 'unable to load preview :(';
-                                document.getElementById('preview-image').removeAttribute('src');
-                                console.error('Error fetching preview:', error);
-                            });
-
-                        document.getElementById('preview-address').innerHTML = shop.address
-                        document.getElementById('button-container').innerHTML = `<a href="${url}" target="_blank" style="display: inline-block; text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-align: center;">Go to Shop</a>`
-                    })
-                    const countryEl = document.createElement('div');
-                    countryEl.innerHTML = shop.country;
-
-                    const tagsEl = document.createElement('div');
-                    tagsEl.className = 'tags'
-                    tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.sort().join(", ") : null;
-
-                    el.appendChild(ela);
-                    el.appendChild(countryEl);
-                    el.appendChild(tagsEl);
-                    container.appendChild(el);
-                });
+                el.appendChild(ela);
+                el.appendChild(countryEl);
+                el.appendChild(tagsEl);
+                container.appendChild(el);
+            });
         }
 
         fetch('shops.json')

@@ -2,6 +2,7 @@
     {
         "id": 86170232,
         "name": "Niconeco Zakkaya",
+        "description": "Unique Craft Supplies & Gifts. Ship Worldwide from New York.",
         "type": "Curator",
         "link": "https://www.niconeco.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274710/niconeco_auecbl.png",
@@ -12,15 +13,18 @@
     }, {
         "id": 68755791,
         "name": "Atelier by Jo",
+        "description": "Shop cute kawaii stationery including deco stickers, polco sticker sheets, toploader deco stickers, washi tapes, charms and more! Customize your journals and diaries with these original design items",
         "type": "Artist",
         "link": "https://www.atelierbyjo.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274994/atelierbyjo_sakkyi.png",
         "address": "",
         "country": "USA",
-        "tags": []
+        "tags": [],
+        "brands": ["Attlier by Jo"]
     }, {
         "id": 68755791,
         "name": "Luiban",
+        "description": "Willkommen bei LUIBAN, Ihr Zuhause für hochwertige Schreibgeräte, Papiere und Kleine Helfer, die nicht nur praktisch sind, sondern auch mit außergewöhnlichem Design und unvergleichlicher Hingabe gefertigt wurden. Tauchen Sie ein in die Welt des Schreibens und entdecken Sie in unserem Shop in der pulsierenden Berliner Mitte eine umfassende Auswahl an Produkten, die nicht nur funktionell, sondern auch ästhetisch ansprechend sind. Besuchen Sie uns persönlich und erleben Sie, wie das Schreiben zu einem sinnlichen Erlebnis wird, während Sie sich von unserem erfahrenen Team umfassend beraten lassen. Lassen Sie sich inspirieren von der Qualität und dem Charme unserer Produkte, die nicht nur Ihren Arbeitsplatz verschönern, sondern auch Ihre Kreativität und Produktivität fördern. Entdecken Sie bei LUIBAN die Kunst des Schreibens neu und lassen Sie sich begeistern.",
         "type": "Curator",
         "link": "https://www.luiban.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736275055/luiban_jk23ad.png",
@@ -31,6 +35,7 @@
     }, {
         "id": 75819041,
         "name": "Maido Okini",
+        "description": "Japanfans aufgepasst. Wir bringen die Vielfalt der Japanischen Schreibwaren, Papierwaren und Bastelwelt zu Dir. Alles, was Deine Arbeit bunter, kreativer, schöner macht. Kawaii Sticker und Briefpapier, japanische Stifte und Masking Tape, farbenfrohe Notizhefte, Notizblöcke und Federmappen.",
         "type": "Curator",
         "link": "https://www.maido-okini.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274712/maidookini_tcnnqo.png",
@@ -51,6 +56,7 @@
     }, {
         "id": 59075659,
         "name": "M. Lovewell",
+        "description": "A little shop of stationery goods and gifts + workshops! Shop online or visit us in Downtown Santa Ana in Orange County! Come take a workshop in calligraphy, hand lettering, weaving, paper flowers, brush lettering and more!",
         "type": "Curator",
         "link": "https://www.mlovewell.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274680/mlovewell_mjpuom.png",
@@ -61,6 +67,7 @@
     }, {
         "id": 93625747,
         "name": "Paper Plant Co",
+        "description": "Paper Plant Co. is the place for paper lovers! We offer stationery, crafts, and gifts that bring joy and creativity to everyday life. We ship worldwide from Los Angeles!",
         "type": "Curator",
         "link": "https://paperplant.co",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274689/paperplantco_nnxfwy.png",
@@ -71,6 +78,7 @@
     }, {
         "id": 8923034,
         "name": "crea with gaby",
+        "description": "Stationery supplies for your journaling, planning and crafting. Find original pet tapes, washi tapes, stickers, paper products and much more. Shipped worldwide!",
         "type": "Artist",
         "link": "https://creawithgaby.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736276139/creawithgaby_lioywc.png",
@@ -80,6 +88,7 @@
     }, {
         "id": 98000734,
         "name": "Sarica Studio",
+        "description": "Sarica is an artist and creates content about journaling, planning, and stationery. Shop stickers, traveler's notebook inserts, digital downloads, printables, and more.",
         "type": "Artist",
         "link": "https://saricastudio.com/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274705/saricastudio_k0rbgd.png",
@@ -90,6 +99,7 @@
     }, {
         "id": 6407898,
         "name": "Paper Miru",
+        "description": "Paperimuru is a papershop from Finland with international deliveries. We offer wide range of high quality stationery from brands like Hobonichi, Midori, Traveler's Company, BGM, Mind Wave, Zebra and many more.",
         "type": "Curator",
         "link": "https://paperimuru.com/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274707/papermiru_jfgpun.png",
@@ -110,6 +120,7 @@
     }, {
         "id": 10018192,
         "name": "Papeterie Makkura",
+        "description": "Papeterie Makkura - Luxury stationery for paper lovers. Notebooks, planners, diaries, Traveler's Notebook high-end. Japanese stationery online.",
         "type": "Curator",
         "link": "https://papeterie-makkura.fr/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274705/papeteriemakkura_dbu22v.png",
@@ -120,6 +131,7 @@
     }, {
         "id": 10032001,
         "name": "Stilo & Stile",
+        "description": "Since 2004 only the best fountain pens, Ballpoint Pens, Roller Pens and Accessories. Extensive catalog with exclusive, rare and collection products. Shipping within 2 days and Free delivery option available",
         "type": "Curator",
         "link": "https://www.stiloestile.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274708/stiloestile_oohbkx.png",
@@ -130,6 +142,7 @@
     }, {
         "id": 22530,
         "name": "Papier & Stift",
+        "description": "Papier & Stift ist dein Online-Shop für feine Schreibwaren aus der ganzen Welt. Wir führen eine große Auswahl an Tinten und Füllfederhaltern, mit denen du stilvoll schreiben kannst.",
         "type": "Curator",
         "link": "https://www.papierundstift.de",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274696/papierundstift_jmndwz.png",
@@ -150,6 +163,7 @@
     }, {
         "id": 69582321,
         "name": "Komadori",
+        "description": "Pappershandel med inspiration från Japan",
         "type": "Curator",
         "link": "https://komadori.se",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274710/komadori_fuv322.png",
