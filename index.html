@@ -145,7 +145,7 @@
                             .then(data => {
                                 document.getElementById('preview-title').innerText = data.title || shop.name;
                                 document.getElementById('preview-description').innerText = data.description || '';
-                                document.getElementById('preview-image').src = data.image;
+                                document.getElementById('preview-image').src = shop.screenshot;
                             })
                             .catch(error => {
                                 document.getElementById('preview-title').innerText = shop.name;
@@ -238,7 +238,7 @@
             <div style="width: 80%; flex-grow: 1; padding: 1rem;">
                 <h2 id="preview-title"></h2>
                 <div>
-                    <img style="max-width: 300px; max-height: 300px" id="preview-image" />
+                    <img style="max-width: 90%" id="preview-image" />
                     <p id="preview-description"></p>
                     <p id="preview-address"></p>
                     <div id="button-container"></div>
