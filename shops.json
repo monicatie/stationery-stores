@@ -39,13 +39,14 @@
         "type": "Curator",
         "link": "https://www.maido-okini.com",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274712/maidookini_tcnnqo.png",
-        "address": "Charlottenburger Str. 62-64, 13086 Berlin",
+        "address": "BIKINI BERLIN, Budapester Str. 38-50, 10787 Berlin",
         "country": "Germany",
         "tags": ["stickers", "paper", "notebooks", "washi tape"],
         "brands": ["Akashiya", "Furukawa Shiko", "General Sticker", "HANKO SEAL", "Kamidea", "Kamiiso", "Kleid", "Kuretake", "Maruman", "Mildliner", "Mind Wave", "mori", "NB Japan", "OHTO", "Sakae Technical Paper", "Shogado", "Zebra"]
     }, {
         "id": 68009276,
         "name": "Cafe Analog",
+        "description": "",
         "type": "Curator",
         "link": "https://www.cafe-analog.nl",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274677/cafeanalog_muxjj9.png",
@@ -110,6 +111,7 @@
     }, {
         "id": 58201684,
         "name": "Baum-kuchen",
+        "description": "",
         "type": "Artist",
         "link": "https://www.baum-kuchen.net/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736274671/baumkuchen_bshasv.png",
