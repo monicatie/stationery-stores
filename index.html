@@ -145,12 +145,13 @@
         ela.addEventListener('click', (e) => {
           const rightPanelEl = document.getElementById("rightPanel");
           rightPanelEl.innerHTML = `
-            <h2 id="preview-title">${shop.name}</h2>
+            <h2>${shop.name}</h2>
             <div>
-              <img style="max-width: 90%" id="preview-image" src="${shop.screenshot}" alt="Screenshot of ${shop.name}'s website" />
+              <img style="max-width: 90%" src="${shop.screenshot}" alt="Screenshot of ${shop.name}'s website" />
               <p>${shop.description}</p>
-              <p id="preview-address">${shop.address}</p>
-              <div id="button-container">
+              <p>${shop.address}</p>
+              <p>${shop.address}</p>
+              <div>
                 <a class="shop-button" href="${shop.link}" target="_blank">Go To Shop</a>
                 </div>
             </div>
