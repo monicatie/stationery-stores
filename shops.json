@@ -251,5 +251,16 @@
         "country": "USA",
         "tags": ["stickers", "washi tape", "notebooks"],
         "brands": ["Constanzzze"]
+    }, {
+        "id": 13574545,
+        "name": "The Coffee Monsterz Co",
+        "description": "Shop a large selection of uniquely hand drawn planner stickers, washi tapes, sticky notes and other stationery goodies to add some cuteness to your daily journal!",
+        "type": "Artist",
+        "link": "https://thecoffeemonsterzco.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507492/thecoffeemonsterzco_i81kgc.png",
+        "address": "PO BOX 73111, Evergreen RPO, Surrey BC V3R0J2",
+        "country": "Canada",
+        "tags": ["stickers", "washi tape", "notebooks"],
+        "brands": ["The Coffee Monsterz Co"]
     }
 ]
