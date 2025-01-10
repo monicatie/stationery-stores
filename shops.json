@@ -185,5 +185,16 @@
         "country": "Germany",
         "tags": ["stickers", "washi tape", "planners", "filofax"],
         "brands": ["Heeda Girls", "ponybrown"]
+    }, {
+        "id": 98172432,
+        "name": "It's Deco Day",
+        "description": "",
+        "type": "Curator",
+        "link": "https://itsdecoday.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736505336/itsdecoday_tsfz3z.png",
+        "address": "",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "planners"],
+        "brands": ["ANGORA LORA", "BAKSAL LIGHTER", "BEOND", "BLACK LETTER", "BORAH STUDIO", "CARAMELLY", "CHERISH 203", "CHERRY AND NIGHT", "CHIIKAWA", "CORAL TREE", "COTTONYCOTTON", "CREAMY VILLAGE", "DAILYLOUISBELLA", "DOMI WORLD", "ESEGYE", "EUNPSHOP", "FLORO STUDIO", "GRGRDAN", "HEART SHEEP STUDIO", "HEEHEECLUB", "HIPROMLAND", "IM9ROOMI", "IM9ROOMI X MOMORING", "IO STUDIO", "IT'S DECO DAY", "JHOVE STUDIO", "KAMEI HAMEI", "KEEMYURII", "KITTIKAZ.Z", "MALANGCONG", "MANTA BOX", "MARSHLAND", "MERING KR", "MIFFY KOREA", "MILKY MYO", "MOMORING", "MONANBEAR", "MOODY CLUB", "MY MOUSSE", "NEVERTHELESS", "PEARLY BUTTON", "PEGACON EYES", "POETICO", "POKEMON KOREA", "POMPOMROOM", "POPCORN GAMES", "PPAN.JJ", "PURPLE COLORLY", "RARI DAYS", "RUMPUMPUM", "SANRIO KOREA", "SE0MARU", "SEOK SAE NAL", "SEOLKEE", "SEORIKKOCH", "SHOCKING PINK ROSE", "SOMSOMSOSO", "SOOANG", "SOOOOPZI", "SORA MIMI", "STATIONERY KOREA", "STUDIOXXXL", "SWEET DUST", "VOLZZI", "WAYTOOFETCH", "WDYL", "YEASOMI", "YIFUU.0U", "9NYANG STORE"]
     }
 ]
