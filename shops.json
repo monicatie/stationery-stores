@@ -221,7 +221,7 @@
     }, {
         "id": 25234023,
         "name": "Saiko Stationery",
-        "description": "Saiko Stationery is your one stop shop for cute imported Japanese stationery products. Located in Los Angeles, California. ",
+        "description": "Saiko Stationery is your one stop shop for cute imported Japanese stationery products. Located in Los Angeles, California.",
         "type": "Curator",
         "link": "https://saikostationery.com/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506560/saikostationery_qpjy0d.png",
@@ -229,5 +229,16 @@
         "country": "USA",
         "tags": ["stickers", "washi tape", "notebooks", "fountain pens", "stamps"],
         "brands": ["Beverly", "BGM", "Clarto", "CozyCa", "Furukawashiko", "Greeting Life Inc.", "Hallmark Japan", "Kamio", "Kitsune Biyori", "Kleid Stationery", "Kodomo No Kao", "Kokuyo", "Kutsuwa Co.", "MiiCHOS - Desk Dwellers", "Mind Wave", "mt masking tape", "MU Life Style", "Old Resta", "Papier Platz", "Pilot", "Platinum", "Plus Inc.", "Raymay Fujii Co.", "Saien", "Saiko Stationery", "Sailor", "Sanby", "Shachihata", "Tombow", "Tono & Lims", "Uni-ball", "Zebra"]
+    }, {
+        "id": 84628342,
+        "name": "Sweet Kawaii Design",
+        "description": "Specializing in kawaii planner stickers and inserts.",
+        "type": "Artist",
+        "link": "https://www.sweetkawaiidesign.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507099/sweetkawaiidesign_virdpd.png",
+        "address": "Portland, OR",
+        "country": "USA",
+        "tags": ["stickers", "washi tape"],
+        "brands": ["Sweet Kawaii Design"]
     }
 ]
