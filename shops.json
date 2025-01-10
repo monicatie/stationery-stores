@@ -75,7 +75,7 @@
         "address": "938 N Hill St, Los Angeles, CA 90012",
         "country": "USA",
         "tags": ["notebooks", "stickers", "washi tape", "fountain pens", "planners", "stamps"],
-        "brands": ["ADERIA Retro", "Anterique Stationers", "Apica", "AVRIL Kyoto", "Baggu", "Bande", "Beverly", "BGM", "Blackwing", "Craft & Design Technology", "Classiky", "Cozyca", "Delfonics", "Dominant Industry", "Fog Linen Work", "Found Image Press", "Furukawa Shiko", "Hobonichi", "Kakimori", "Kanmido", "Kaweco", "King Jim", "Kokuyo", "Kuretake", "Kyupodo", "Leuchtturm 1917", "Maruman", "MD Paper Products", "Midori", "Mind Wave", "Mossery", "mt masking tape", "Muji", "MU Lifestyle", "Nagasawa", "Oblation Papers & Press", "OHTO", "OIMU", "OURS", "Papier Platz", "Papier Tigre", "Pentel", "Pilot", "PLUS", "Punilabo", "Regaro Papiro", "Sailor", "Shachihata", "Stalogy", "STICKII", "sun-star stationery", "Tag Stationery", "Three Potato Four", "Tombow", "TOYO Steel", "Traveler's Company", "TWSBI", "Uni-Ball", "Yamamoto Paper", "Zebra"]
+        "brands": ["ADERIA Retro", "Anterique Stationers", "Apica", "AVRIL Kyoto", "Baggu", "Bande", "Beverly", "BGM", "Blackwing", "Craft & Design Technology", "Classiky", "Cozyca", "Delfonics", "Dominant Industry", "Fog Linen Work", "Found Image Press", "Furukawa Shiko", "Hobonichi", "Kakimori", "Kanmido", "Kaweco", "King Jim", "Kokuyo", "Kuretake", "Kyupodo", "Leuchtturm 1917", "Maruman", "MD Paper Products", "Midori", "Mind Wave", "Mossery", "mt masking tape", "Muji", "MU LifeStyle", "Nagasawa", "Oblation Papers & Press", "OHTO", "OIMU", "OURS", "Papier Platz", "Papier Tigre", "Pentel", "Pilot", "PLUS", "Punilabo", "Regaro Papiro", "Sailor", "Shachihata", "Stalogy", "STICKII", "sun-star stationery", "Tag Stationery", "Three Potato Four", "Tombow", "TOYO Steel", "Traveler's Company", "TWSBI", "Uni-Ball", "Yamamoto Paper", "Zebra"]
     }, {
         "id": 8923034,
         "name": "crea with gaby",
@@ -210,7 +210,7 @@
     }, {
         "id": 84582334,
         "name": "Fall in Design",
-        "description": "",
+        "description": "Explore the variety of Korean Stationery & School Supplies. We are a cute stationery store offering planners, stickers, photo albums, notebooks, and more.",
         "type": "Curator",
         "link": "https://www.fallindesign.com/",
         "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506301/fallindesign_us2d7z.png",
@@ -218,5 +218,16 @@
         "country": "South Korea",
         "tags": ["stickers", "washi tape", "notebooks", "planners", "stamps"],
         "brands": ["Cooloki", "Dash and Dot"]
+    }, {
+        "id": 25234023,
+        "name": "Saiko Stationery",
+        "description": "Saiko Stationery is your one stop shop for cute imported Japanese stationery products. Located in Los Angeles, California. ",
+        "type": "Curator",
+        "link": "https://saikostationery.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506560/saikostationery_qpjy0d.png",
+        "address": "Los Angeles, CA",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "fountain pens", "stamps"],
+        "brands": ["Beverly", "BGM", "Clarto", "CozyCa", "Furukawashiko", "Greeting Life Inc.", "Hallmark Japan", "Kamio", "Kitsune Biyori", "Kleid Stationery", "Kodomo No Kao", "Kokuyo", "Kutsuwa Co.", "MiiCHOS - Desk Dwellers", "Mind Wave", "mt masking tape", "MU Life Style", "Old Resta", "Papier Platz", "Pilot", "Platinum", "Plus Inc.", "Raymay Fujii Co.", "Saien", "Saiko Stationery", "Sailor", "Sanby", "Shachihata", "Tombow", "Tono & Lims", "Uni-ball", "Zebra"]
     }
 ]
