@@ -262,5 +262,16 @@
         "country": "Canada",
         "tags": ["stickers", "washi tape", "notebooks"],
         "brands": ["The Coffee Monsterz Co"]
+    }, {
+        "id": 85982334,
+        "name": "MochiThings",
+        "description": "Discover thousands of fun, cute, and functional stationery, organization, and home & office products today.",
+        "type": "Curator",
+        "link": "https://shop.mochithings.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507769/mochithings_grg4lu.png",
+        "address": "101 STEWART ST STE 101, Seattle, WA 98101",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "planners"],
+        "brands": []
     }
 ]
