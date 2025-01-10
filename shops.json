@@ -75,7 +75,7 @@
         "address": "938 N Hill St, Los Angeles, CA 90012",
         "country": "USA",
         "tags": ["notebooks", "stickers", "washi tape", "fountain pens", "planners", "stamps"],
-        "brands": ["ADERIA Retro", "Anterique Stationers", "Apica", "AVRIL Kyoto", "Baggu", "Bande", "Beverly", "BGM", "Blackwing", "Craft & Design Technology", "Classiky", "Cozyca", "Delfonics", "Dominant Industry", "Fog Linen Work", "Found Image Press", "Furukawa Shiko", "Hobonichi", "Kakimori", "Kanmido", "Kaweco", "King Jim", "Kokuyo", "Kuretake", "Kyupodo", "Leuchtturm 1917", "Maruman", "MD Paper Products", "Midori", "Mind Wave", "Mossery", "mt masking tape", "Muji", "MU Lifestyle", "Nagasawa", "Oblation Papers & Press", "OHTO", "OIMU", "OURS", "Papier Platz", "Papier Tigre", "Pentel", "Pilot", "PLUS", "Punilabo", "Regaro Papiro", "Sailor", "Shachihata", "Stalogy", "STICKII", "sun-star stationery", "Tag Stationery", "Three Potato Four", "Tombow", "TOYO Steel", "Traveler's Company", "TWSBI", "Uni-Ball", "Yamamoto Paper", "Zebra"]
+        "brands": ["ADERIA Retro", "Anterique Stationers", "Apica", "AVRIL Kyoto", "Baggu", "Bande", "Beverly", "BGM", "Blackwing", "Craft & Design Technology", "Classiky", "Cozyca", "Delfonics", "Dominant Industry", "Fog Linen Work", "Found Image Press", "Furukawa Shiko", "Hobonichi", "Kakimori", "Kanmido", "Kaweco", "King Jim", "Kokuyo", "Kuretake", "Kyupodo", "Leuchtturm 1917", "Maruman", "MD Paper Products", "Midori", "Mind Wave", "Mossery", "mt masking tape", "Muji", "MU LifeStyle", "Nagasawa", "Oblation Papers & Press", "OHTO", "OIMU", "OURS", "Papier Platz", "Papier Tigre", "Pentel", "Pilot", "PLUS", "Punilabo", "Regaro Papiro", "Sailor", "Shachihata", "Stalogy", "STICKII", "sun-star stationery", "Tag Stationery", "Three Potato Four", "Tombow", "TOYO Steel", "Traveler's Company", "TWSBI", "Uni-Ball", "Yamamoto Paper", "Zebra"]
     }, {
         "id": 8923034,
         "name": "crea with gaby",
@@ -174,5 +174,104 @@
         "country": "Sweden",
         "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stamps", "washi tape"],
         "brands": ["Apica", "BGM", "Carl", "Hightide", "ICONIC", "Kakimori", "Kawachiya", "King Jim", "Kobeha", "Kokuyo", "Kunisawa", "Kuretake", "Kutsuwa", "Kyoei", "Life", "Lihit Lab", "Maruman", "Midori", "Nanami", "OHTO", "Penco", "Pentel", "Pilot", "Point", "Raymay", "Sailor", "Saki", "Shogado", "Sonic", "Staedtler", "Stálogy", "The Superior Labor", "Taccia", "Tachikawa", "Takeda Jimuki (TAG)", "Teranishi", "Tombow", "Traveler's Company", "Tsubame", "Tsukineko", "Uni-ball", "World Craft Co.", "Yamamoto Paper", "Zebra"]
+    }, {
+        "id": 37825049,
+        "name": "Filo Fascination",
+        "description": "Ausgewählte Schreibwaren für deinen Planer. Register, Washitapes, Sticker, Shaker-Dashboards u.v.m",
+        "type": "Curator",
+        "link": "https://www.filofascination.com",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736504826/filofascination_m3sti9.png",
+        "address": "",
+        "country": "Germany",
+        "tags": ["stickers", "washi tape", "planners", "filofax"],
+        "brands": ["Heeda Girls", "ponybrown"]
+    }, {
+        "id": 98172432,
+        "name": "It's Deco Day",
+        "description": "",
+        "type": "Curator",
+        "link": "https://itsdecoday.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736505336/itsdecoday_tsfz3z.png",
+        "address": "",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "planners"],
+        "brands": ["ANGORA LORA", "BAKSAL LIGHTER", "BEOND", "BLACK LETTER", "BORAH STUDIO", "CARAMELLY", "CHERISH 203", "CHERRY AND NIGHT", "CHIIKAWA", "CORAL TREE", "COTTONYCOTTON", "CREAMY VILLAGE", "DAILYLOUISBELLA", "DOMI WORLD", "ESEGYE", "EUNPSHOP", "FLORO STUDIO", "GRGRDAN", "HEART SHEEP STUDIO", "HEEHEECLUB", "HIPROMLAND", "IM9ROOMI", "IM9ROOMI X MOMORING", "IO STUDIO", "IT'S DECO DAY", "JHOVE STUDIO", "KAMEI HAMEI", "KEEMYURII", "KITTIKAZ.Z", "MALANGCONG", "MANTA BOX", "MARSHLAND", "MERING KR", "MIFFY KOREA", "MILKY MYO", "MOMORING", "MONANBEAR", "MOODY CLUB", "MY MOUSSE", "NEVERTHELESS", "PEARLY BUTTON", "PEGACON EYES", "POETICO", "POKEMON KOREA", "POMPOMROOM", "POPCORN GAMES", "PPAN.JJ", "PURPLE COLORLY", "RARI DAYS", "RUMPUMPUM", "SANRIO KOREA", "SE0MARU", "SEOK SAE NAL", "SEOLKEE", "SEORIKKOCH", "SHOCKING PINK ROSE", "SOMSOMSOSO", "SOOANG", "SOOOOPZI", "SORA MIMI", "STATIONERY KOREA", "STUDIOXXXL", "SWEET DUST", "VOLZZI", "WAYTOOFETCH", "WDYL", "YEASOMI", "YIFUU.0U", "9NYANG STORE"]
+    }, {
+        "id": 28457239,
+        "name": "Global Sosorowa",
+        "description": "",
+        "type": "Curator",
+        "link": "https://global-sosorowa.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506072/globalsosorowa_egp3uk.png",
+        "address": "",
+        "country": "South Korea",
+        "tags": ["stickers", "washi tape"],
+        "brands": ["a.bubble_crush", "a.by.studio", "afternoonch", "ahchuucoco", "alittlepepper.kr", "allure_room", "amikong", "amuroki_hi", "amustew", "angora_lora", "ang_bbang", "ang_loveme_", "a.piece.of_things", "atoz_club", "ato_and_bandi", "_ariworks", "be.bread", "bebez_z", "beond_kr", "bingbing_mungu", "biyaluv_me", "bluezroom", "bodaspace", "boreum_studio", "busyroo_m", "butterandmood", "byfulldesign", "by.owlymoly", "_berryheart", "    catdabang", "cha_nya_", "chani__bear", "cherish.203", "childhood_100", "chiikawa", "choreun__", "color_palette_s2", "coraltree_jj", "cottonworld__", "crazihee.world", "creamy.crumbz", "creamymilky.kr", "cuties.ennggu", "dailylike_official", "dal_o_land", "dami_grim", "dani_store_o_o", "daraerare", "dashanddot_kr", "diaryrecord", "dreamy.lights", "dear_my_dolly", "dekho.bokho", "doneory", "dongdong_candle", "don_gle9", "do.o.mong", "dorami___s", "down_for_love_", "dreaming_s_", "dung2nara", "flo_foret", "fluffy_day_", "fluffy_mark_", "forevermong", "fromsawol", "frizzle_frienzs", "forang.kr", "g5green_", "godongsang", "gom_mato", "ghost_store.o_o", "glen_object", "gmlsxhf", "hamrrii", "haran_studio_official", "happiest_fluffy_shop", "happyhappy.moo", "hatoexe", "hayanppang_studio", "hay.oo.studio", "heart.love_village", "heartsheep.studio", "heeheeclub", "hehe_studio_", "hello_puring", "hello.rabda", "henimani_store", "hidamarii_", "hinaku_u", "_hinnya", "hipromland", "hookka.hookka.studio", "hummnyanya", "hwang_daram", "iconic_story", "invaderdarling", "illus.byjo", "im.pine.ok", "io_studio__", "jamstudio", "je_taime_august", "jeje_universe23", "jellygoround.kr", "jelly_land_192", "jjondeug_studio", "jollygeestudio", "karandash_office", "kim_moyangkun", "kindablue.shop", "kinyahouse", "kitutttuu", "kkinidesign_official", "kokoro.koya", "kuni_store", "lazy.rough.line", "letsgogoproject", "love.me.more_s2", "lilly.illust", "little.bird_market", "little_popo_", "loveheartbomb", "love_my.room", "maeesill", "mafavarchive", "malangcong", "malang_.store", "manta_box", "mellee_factory", "mering.kr", "merry.weather_", "midnight.note", "mienne1989", "milkjelly_studio", "mintgrid", "mijiii_s", "misol_misol_", "m.muz__", "moii_ttoi", "momoi_house", "momorin_g", "mookoomookoostudio", "nono_with_", "naive_garden", "nakkonakko", "nanasmood", "nekomadesoup", "nemo.space", "neon.pastell", "nungo._.m", "nutcoco_s", "_n.hee_", "nin_nnnnni", "oddle_oddle", "_ololoc", "orchid_drops"]
+    }, {
+        "id": 84582334,
+        "name": "Fall in Design",
+        "description": "Explore the variety of Korean Stationery & School Supplies. We are a cute stationery store offering planners, stickers, photo albums, notebooks, and more.",
+        "type": "Curator",
+        "link": "https://www.fallindesign.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506301/fallindesign_us2d7z.png",
+        "address": "",
+        "country": "South Korea",
+        "tags": ["stickers", "washi tape", "notebooks", "planners", "stamps"],
+        "brands": ["Cooloki", "Dash and Dot"]
+    }, {
+        "id": 25234023,
+        "name": "Saiko Stationery",
+        "description": "Saiko Stationery is your one stop shop for cute imported Japanese stationery products. Located in Los Angeles, California.",
+        "type": "Curator",
+        "link": "https://saikostationery.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736506560/saikostationery_qpjy0d.png",
+        "address": "Los Angeles, CA",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "fountain pens", "stamps"],
+        "brands": ["Beverly", "BGM", "Clarto", "CozyCa", "Furukawashiko", "Greeting Life Inc.", "Hallmark Japan", "Kamio", "Kitsune Biyori", "Kleid Stationery", "Kodomo No Kao", "Kokuyo", "Kutsuwa Co.", "MiiCHOS - Desk Dwellers", "Mind Wave", "mt masking tape", "MU Life Style", "Old Resta", "Papier Platz", "Pilot", "Platinum", "Plus Inc.", "Raymay Fujii Co.", "Saien", "Saiko Stationery", "Sailor", "Sanby", "Shachihata", "Tombow", "Tono & Lims", "Uni-ball", "Zebra"]
+    }, {
+        "id": 84628342,
+        "name": "Sweet Kawaii Design",
+        "description": "Specializing in kawaii planner stickers and inserts.",
+        "type": "Artist",
+        "link": "https://www.sweetkawaiidesign.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507099/sweetkawaiidesign_virdpd.png",
+        "address": "Portland, OR",
+        "country": "USA",
+        "tags": ["stickers", "washi tape"],
+        "brands": ["Sweet Kawaii Design"]
+    }, {
+        "id": 13574545,
+        "name": "Constanzzze",
+        "description": "Specializing in kawaii planner stickers and inserts.",
+        "type": "Artist",
+        "link": "https://constanzzze.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507279/constanzzze_f26r5q.png",
+        "address": "",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks"],
+        "brands": ["Constanzzze"]
+    }, {
+        "id": 13574545,
+        "name": "The Coffee Monsterz Co",
+        "description": "Shop a large selection of uniquely hand drawn planner stickers, washi tapes, sticky notes and other stationery goodies to add some cuteness to your daily journal!",
+        "type": "Artist",
+        "link": "https://thecoffeemonsterzco.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507492/thecoffeemonsterzco_i81kgc.png",
+        "address": "PO BOX 73111, Evergreen RPO, Surrey BC V3R0J2",
+        "country": "Canada",
+        "tags": ["stickers", "washi tape", "notebooks"],
+        "brands": ["The Coffee Monsterz Co"]
+    }, {
+        "id": 85982334,
+        "name": "MochiThings",
+        "description": "Discover thousands of fun, cute, and functional stationery, organization, and home & office products today.",
+        "type": "Curator",
+        "link": "https://shop.mochithings.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507769/mochithings_grg4lu.png",
+        "address": "101 STEWART ST STE 101, Seattle, WA 98101",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks", "planners"],
+        "brands": []
     }
 ]
