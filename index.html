@@ -34,6 +34,32 @@
       color: gray;
     }
 
+    .shop-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+      gap: 20px; /* Space between cards */
+      padding: 20px; /* Optional padding around the grid */
+    }
+
+    .shop-card {
+      background: #fff; /* White background */
+      border: 1px solid #ddd; /* Light border */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      padding: 15px;
+    }
+
+    .shop-card .description {
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 15px;
+      display: -webkit-box; /* Flexbox for text truncation */
+      -webkit-line-clamp: 3; /* Limit to 3 lines */
+      -webkit-box-orient: vertical; /* Vertical box layout */
+      overflow: hidden; /* Hide overflowed text */
+      text-overflow: ellipsis; /* Add "..." to overflowed text */
+    }
+
     .shop-button {
       display: inline-block;
       text-decoration: none;
@@ -137,37 +163,21 @@
 
       // Display shops dynamically
       shops.forEach(shop => {
-        const el = document.createElement('div');
-
-        const ela = document.createElement('a');
-        ela.innerHTML = `<strong>${shop.name}</strong>`;
-        ela.href = '#'
-        ela.addEventListener('click', (e) => {
-          const rightPanelEl = document.getElementById("rightPanel");
-          rightPanelEl.innerHTML = `
+        const shopCard = `
+          <div class="shop-card">
             <h2>${shop.name}</h2>
             <div>
               <img style="max-width: 90%" src="${shop.screenshot}" alt="Screenshot of ${shop.name}'s website" />
-              <p>${shop.description}</p>
-              <p>${shop.address}</p>
-              <p>${shop.address}</p>
+              <p class="description">${shop.description}</p>
+              <p>${shop.address}<br/>${shop.country}</p>
+              <p class="tags">${Array.isArray(shop.tags) ? shop.tags.sort().join(", ") : ""}</p>
               <div>
                 <a class="shop-button" href="${shop.link}" target="_blank">Go To Shop</a>
                 </div>
             </div>
-          `;
-        })
-        const countryEl = document.createElement('div');
-        countryEl.innerHTML = shop.country;
-
-        const tagsEl = document.createElement('div');
-        tagsEl.className = 'tags'
-        tagsEl.innerHTML = Array.isArray(shop.tags) ? shop.tags.sort().join(", ") : null;
-
-        el.appendChild(ela);
-        el.appendChild(countryEl);
-        el.appendChild(tagsEl);
-        container.appendChild(el);
+          </div>
+        `;
+        container.innerHTML += shopCard;
       });
     }
 
@@ -227,15 +237,8 @@
         <button onclick="applyFilter(SHOPS_GLOBAL)">Filter</button>
       </form>
     </div>
-    <div style="display: flex; height: 100vh;">
-      <!-- Left Panel: List of Shops -->
-      <div style="width: 20%; min-width: 150px; border-right: 1px solid #ccc; overflow-y: auto; padding: 1rem;">
-        <div id="shops-list">
-        </div>
-      </div>
-
-      <!-- Right Panel: Iframe for Shop's Website -->
-      <div id="rightPanel" style="width: 80%; flex-grow: 1; padding: 1rem;">
+    <div style="display: flex;">
+      <div id="shops-list" class="shop-list" style="width: 80%; flex-grow: 1; padding: 1rem;">
       </div>
     </div>
   </main>
