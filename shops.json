@@ -240,5 +240,16 @@
         "country": "USA",
         "tags": ["stickers", "washi tape"],
         "brands": ["Sweet Kawaii Design"]
+    }, {
+        "id": 13574545,
+        "name": "Constanzzze",
+        "description": "Specializing in kawaii planner stickers and inserts.",
+        "type": "Artist",
+        "link": "https://constanzzze.com/",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736507279/constanzzze_f26r5q.png",
+        "address": "",
+        "country": "USA",
+        "tags": ["stickers", "washi tape", "notebooks"],
+        "brands": ["Constanzzze"]
     }
 ]
