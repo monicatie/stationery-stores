@@ -174,5 +174,16 @@
         "country": "Sweden",
         "tags": ["fountain pens", "ink", "paper", "notebooks", "planners", "stamps", "washi tape"],
         "brands": ["Apica", "BGM", "Carl", "Hightide", "ICONIC", "Kakimori", "Kawachiya", "King Jim", "Kobeha", "Kokuyo", "Kunisawa", "Kuretake", "Kutsuwa", "Kyoei", "Life", "Lihit Lab", "Maruman", "Midori", "Nanami", "OHTO", "Penco", "Pentel", "Pilot", "Point", "Raymay", "Sailor", "Saki", "Shogado", "Sonic", "Staedtler", "Stálogy", "The Superior Labor", "Taccia", "Tachikawa", "Takeda Jimuki (TAG)", "Teranishi", "Tombow", "Traveler's Company", "Tsubame", "Tsukineko", "Uni-ball", "World Craft Co.", "Yamamoto Paper", "Zebra"]
+    }, {
+        "id": 37825049,
+        "name": "Filo Fascination",
+        "description": "Ausgewählte Schreibwaren für deinen Planer. Register, Washitapes, Sticker, Shaker-Dashboards u.v.m",
+        "type": "Curator",
+        "link": "https://www.filofascination.com",
+        "screenshot": "https://res.cloudinary.com/doxb98ltl/image/upload/v1736504826/filofascination_m3sti9.png",
+        "address": "",
+        "country": "Germany",
+        "tags": ["stickers", "washi tape", "planners", "filofax"],
+        "brands": ["Heeda Girls", "ponybrown"]
     }
 ]
